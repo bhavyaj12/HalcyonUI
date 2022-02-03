@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/nav-common.css">
+    <link rel="stylesheet" href="/css/utility.css">
+    <link rel="stylesheet" href="/css/avatar.css">
+    <title>Get Started</title>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="nav-main">
+
+            <div class="logo-box">
+                <a href="/index.html"><img src="/assets/HalcyonLogo.svg" alt="logo" class="logo"></a>
+            </div>
+
+            <div class="nav-list-item">
+                <ul class="ul-no-decor">
+                    <li class="documentation disp-inline-flex"><a href="#" class="link-docs">Documentation</li></a>
+                </ul>
+
+                <div class="link-social">
+                    <a href="https://github.com/bhavyaj12" target="_blank" class="nav-pills"><i
+                            class="fab fa-github "></i></a>
+                    <a href="https://twitter.com/bhavzlearn" target="_blank" class="nav-pills"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/bhavya-joshi-438178184" target="_blank" class="nav-pills"><i
+                            class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar-side">
+        <div class="mainheading-navside">
+            Components
+        </div>
+        <div class="subheading-navside">
+            <a class="link-no-decor" href="#">Alert</a>
+            <a class="link-no-decor active" href="/pages/components/avatar.html">Avatar</a>
+            <a class="link-no-decor" href="/pages/components/badge.html">Badge</a>
+            <a class="link-no-decor" href="#">Button</a>
+            <a class="link-no-decor" href="#">Card</a>
+            <a class="link-no-decor" href="#">Image</a>
+            <a class="link-no-decor" href="#">Input</a>
+        </div>
+    </nav>
+
+    <main class="component-disp">
+        <h1 class="header-component txt-large">Avatar</h1>
+        <p class="intro-comp txt-component txt-medium">Avatars are used to show a user's profile picture on a website.
+        </p>
+        <h3 class="subheader-component txt-medium">Image Avatar</h3>
+        <p class="txt-component txt-normal">Avatars with image are available in 5 different sizes - extra small (xs),
+            small (sm), medium (md), large (lg) and extra large (xl). To use the avatar in your site, add the base class
+            <span class="primary-color">avatar</span> and add any one of the following classes for the different sizes -
+            <span class="primary-color">avatar-xs</span>, <span class="primary-color">avatar-sm</span>, <span
+                class="primary-color">avatar-md</span>, <span class="primary-color">avatar-lg</span>, and <span
+                class="primary-color">avatar-xl</span>.</p>
+        <div class="component-example">
+            <img src="/assets/avatar-1.jpg" alt="Extra Large Avatar" class="avatar avatar-xl" />
+            <img src="/assets/avatar-1.jpg" alt="Large Avatar" class="avatar avatar-lg" />
+            <img src="/assets/avatar-1.jpg" alt="Medium Avatar" class="avatar avatar-md" />
+            <img src="/assets/avatar-1.jpg" alt="Small Avatar" class="avatar avatar-sm" />
+            <img src="/assets/avatar-1.jpg" alt="Extra Small Avatar" class="avatar avatar-xs" />
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to get the avatars! Don't forget to include an
+            image.</p>
+
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522%252Fassets%252Favatar-1.jpg%2522%2520alt%253D%2522Extra%2520Large%2520Avatar%2522%2520class%253D%2522avatar%2520avatar-xl%2522%2520%252F%253E%250A%253Cimg%2520src%253D%2522%252Fassets%252Favatar-1.jpg%2522%2520alt%253D%2522Large%2520Avatar%2522%2520class%253D%2522avatar%2520avatar-lg%2522%2520%252F%253E%250A%253Cimg%2520src%253D%2522%252Fassets%252Favatar-1.jpg%2522%2520alt%253D%2522Medium%2520Avatar%2522%2520class%253D%2522avatar%2520avatar-md%2522%2520%252F%253E%250A%253Cimg%2520src%253D%2522%252Fassets%252Favatar-1.jpg%2522%2520alt%253D%2522Small%2520Avatar%2522%2520class%253D%2522avatar%2520avatar-sm%2522%2520%252F%253E%250A%253Cimg%2520src%253D%2522%252Fassets%252Favatar-1.jpg%2522%2520alt%253D%2522Extra%2520Small%2520Avatar%2522%2520class%253D%2522avatar%2520avatar-xs%2522%2520%252F%253E"
+                style="width: 841px; height: 262px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <h3 class="subheader-component txt-medium">Text Avatar</h3>
+        <p class="txt-component txt-normal ">Avatars without image can be displayed with initials by adding the class
+            <span class="primary-color">avatar-txt</span>.</p>
+        <div class="component-example">
+            <div class="avatar avatar-xl avatar-txt" role="image">B</div>
+            <div class="avatar avatar-lg avatar-txt" role="image">B</div>
+            <div class="avatar avatar-md avatar-txt" role="image">B</div>
+            <div class="avatar avatar-sm avatar-txt" role="image">B</div>
+            <div class="avatar avatar-xs avatar-txt" role="image">B</div>
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to use the text avatars.</p>
+
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-xl%2520avatar-txt%2522%2520role%253D%2522image%2522%253EB%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2520avatar-txt%2522%2520role%253D%2522image%2522%253EB%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2520avatar-txt%2522%2520role%253D%2522image%2522%253EB%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2520avatar-txt%2522%2520role%253D%2522image%2522%253EB%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xs%2520avatar-txt%2522%2520role%253D%2522image%2522%253EB%253C%252Fdiv%253E"
+                style="width: 647px; height: 262px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <footer class="footer-components">
+            <a href="#" class="btn-footer"><img src="/assets/arrow-left.svg"> Alert </a>
+            <a href="/pages/components/badge.html" class="btn-footer"> Badge <img src="/assets/arrow-right.svg"> </a>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
