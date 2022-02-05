@@ -12,6 +12,7 @@
 
 :root {
     --cta-color: #7f17c8;
+    --secondary-color: #d8b9ee;
     --accent-color: #44242400;
     --font-color: #000000;
     --grey-border: rgb(153, 153, 153);
@@ -83,7 +84,6 @@ a:hover {
     position: absolute;
     margin-top: 10rem;
     top: 0;
-    bottom: 0;
     margin-left: 2rem;
     height: 100vh;
     overflow: hidden;
@@ -95,7 +95,6 @@ a:hover {
     font-size: var(--size-1-5);
     margin-bottom: var(--size-1);
     font-weight: 300;
-
 }
 
 .subheading-navside a {
@@ -103,8 +102,7 @@ a:hover {
     color: gray;
     font-size: 1.2rem;
     font-weight: 300;
-    padding: 0.5rem;
-    margin-left: var(--size-1);
+    padding: var(--size-0-5) 0;
     width: 100%;
     text-align: justify;
 }
@@ -114,9 +112,9 @@ a:hover {
 }
 
 .subheading-navside a:hover {
-    background-color: var(--cta-color);
-    opacity: 20%;
-    border-radius: 1px;
+    background-color: var(--secondary-color);
+    border-radius: 0.2rem;
+    color: black;
 }
 
 .component-disp {
