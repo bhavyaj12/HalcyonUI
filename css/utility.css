@@ -1,0 +1,31 @@
+.ul-no-decor {
+    list-style: none;
+}
+
+.disp-inline-flex {
+    display: inline-flex;
+}
+
+.link-no-decor {
+    text-decoration: none;
+}
+
+.primary-color {
+    color: var(--cta-color);
+}
+
+.txt-small {
+    font-size: var(--size-1);
+}
+
+.txt-normal {
+    font-size: 1.3rem;
+}
+
+.txt-medium {
+    font-size: var(--size-1-5);
+}
+
+.txt-large {
+    font-size: var(--size-2-5);
+}

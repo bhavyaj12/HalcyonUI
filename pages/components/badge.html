@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/nav-common.css">
+    <link rel="stylesheet" href="/css/utility.css">
+    <link rel="stylesheet" href="/css/avatar.css">
+    <link rel="stylesheet" href="/css/badge.css">
+    <title>Get Started</title>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="nav-main">
+
+            <div class="logo-box">
+                <a href="/index.html"><img src="/assets/HalcyonLogo.svg" alt="logo" class="logo"></a>
+            </div>
+
+            <div class="nav-list-item">
+                <ul class="ul-no-decor">
+                    <li class="documentation disp-inline-flex"><a href="#" class="link-docs">Documentation</li></a>
+                </ul>
+
+                <div class="link-social">
+                    <a href="https://github.com/bhavyaj12" target="_blank" class="nav-pills"><i
+                            class="fab fa-github "></i></a>
+                    <a href="https://twitter.com/bhavzlearn" target="_blank" class="nav-pills"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/bhavya-joshi-438178184" target="_blank" class="nav-pills"><i
+                            class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar-side">
+        <div class="mainheading-navside">
+            Components
+        </div>
+        <div class="subheading-navside">
+            <a class="link-no-decor" href="#">Alert</a>
+            <a class="link-no-decor" href="/pages/components/avatar.html">Avatar</a>
+            <a class="link-no-decor active" href="/pages/components/badge.html">Badge</a>
+            <a class="link-no-decor" href="#">Button</a>
+            <a class="link-no-decor" href="#">Card</a>
+            <a class="link-no-decor" href="#">Image</a>
+            <a class="link-no-decor" href="#">Input</a>
+        </div>
+    </nav>
+
+    <main class="component-disp">
+        <h1 class="header-component txt-large">Badge</h1>
+        <p class="intro-comp txt-component txt-medium">Badges are used to display certain information such as user
+            status or a notification number as small circles in the top or bottom right.</p>
+        <h3 class="subheader-component txt-medium">Status Badge</h3>
+        <p class="txt-component txt-normal">Status badge is used to represent a user's status. The options are online
+            (green), offline (grey) and do not disturb (red). The badges are available according to three avatar sizes -
+            large (lg), medium (md) and very small (xs).
+
+            <div class="component-example">
+                <div class="badge">
+                    <img src="/assets/avatar-2.jpg" alt="Large Avatar with Badge" class="avatar avatar-lg" />
+                    <div class="badge-online badge-avatar-lg"></div>
+                </div>
+                <div class="badge">
+                    <img src="/assets/avatar-2.jpg" alt="Medium Avatar with Badge" class="avatar avatar-md " />
+                    <div class="badge-offline badge-avatar-md"></div>
+                </div>
+                <div class="badge">
+                    <img src="/assets/avatar-2.jpg" alt="Extra Small Avatar with Badge" class="avatar avatar-xs" />
+                    <div class="badge-dnd badge-avatar-xs"></div>
+                </div>
+            </div>
+
+            <p class="txt-component txt-normal">You can paste the below code to get the badges on avatars according to
+                avatar size.</p>
+
+            <div class="code-display">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Favatar-2.jpg%2522%2520alt%253D%2522Large%2520Avatar%2520with%2520Badge%2522%2520class%253D%2522avatar%2520avatar-lg%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-online%2520badge-avatar-lg%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Favatar-2.jpg%2522%2520alt%253D%2522Medium%2520Avatar%2520with%2520Badge%2522%2520class%253D%2522avatar%2520avatar-md%2520%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-offline%2520badge-avatar-md%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Favatar-2.jpg%2522%2520alt%253D%2522Extra%2520Small%2520Avatar%2520with%2520Badge%2522%2520class%253D%2522avatar%2520avatar-xs%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-dnd%2520badge-avatar-xs%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 968px; height: 410px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <h3 class="subheader-component txt-medium">Icon with Number Badge</h3>
+            <p class="txt-component txt-normal">Number Badge can be used to display the number of messages or
+                notifications in the icon on which it is present.
+
+                <div class="component-example">
+                    <div class="badge">
+                        <img src="/assets/cart.svg" alt="Cart Icon with Number Badge" class="avatar avatar-sm " />
+                        <div class="badge-no">12</div>
+                    </div>
+                    <div class="badge">
+                        <img src="/assets/mail.svg" alt="Mail Icon with Number Badge" class="avatar avatar-sm " />
+                        <div class="badge-no">46</div>
+                    </div>
+                    <div class="badge">
+                        <img src="/assets/user.svg" alt="User Icon with Number Badge" class="avatar avatar-sm " />
+                        <div class="badge-no">5</div>
+                    </div>
+                    <div class="badge">
+                        <img src="/assets/home.svg" alt="Home Icon with Number Badge" class="avatar avatar-sm " />
+                        <div class="badge-no">99</div>
+                    </div>
+                </div>
+
+                <p class="txt-component txt-normal">You can paste the below code to use the number badge on icons.</p>
+
+                <div class="code-display">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cimg%2520src%253D%2522%252Fassets%252Fcart.svg%2522%2520alt%253D%2522Cart%2520Icon%2520with%2520Number%2520Badge%2522%2520class%253D%2522avatar%2520avatar-sm%2520%2522%2520%252F%253E%250A%2509%253Cdiv%2520class%253D%2522badge-no%2522%253E12%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fmail.svg%2522%2520alt%253D%2522Mail%2520Icon%2520with%2520Number%2520Badge%2522%2520class%253D%2522avatar%2520avatar-sm%2520%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-no%2522%253E46%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fuser.svg%2522%2520alt%253D%2522User%2520Icon%2520with%2520Number%2520Badge%2522%2520class%253D%2522avatar%2520avatar-sm%2520%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-no%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fhome.svg%2522%2520alt%253D%2522Home%2520Icon%2520with%2520Number%2520Badge%2522%2520class%253D%2522avatar%2520avatar-sm%2520%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-no%2522%253E99%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 942px; height: 484px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <footer class="footer-components">
+                    <a href="/pages/components/avatar.html" class="btn-footer"><img src="/assets/arrow-left.svg"> Avatar
+                    </a>
+                    <a href="#" class="btn-footer"> Button <img src="/assets/arrow-right.svg"> </a>
+                </footer>
+
+
+    </main>
+
+</body>
+
+</html>
