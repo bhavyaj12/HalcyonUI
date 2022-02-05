@@ -33,3 +33,11 @@
 .txt-large {
     font-size: var(--size-2-5);
 }
+
+.m-1 {
+    margin: var(--size-1) 0;
+}
+
+.m-2 {
+    margin: var(--size-2) 0;
+}
