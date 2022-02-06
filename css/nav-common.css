@@ -187,3 +187,14 @@ footer a {
     font-weight: 300;
     text-decoration: none;
 }
+
+iframe {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    transform: scale(1);
+    overflow: hidden;
+    border-radius: 1rem;
+    margin: auto;
+}
