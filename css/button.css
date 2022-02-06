@@ -1,0 +1,102 @@
+.button {
+    text-decoration: none;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+    padding: var(--size-0-5) var(--size-1);
+    min-width: 9.2rem;
+    width: max-content;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    margin: var(--size-1);
+}
+
+.button-primary.btn-solid{
+    background-color: var(--cta-color);
+}
+
+.button-primary.btn-outline {
+    color: var(--cta-color);
+    border: 2px solid var(--cta-color);
+}
+
+.button-primary.button-text-icon {
+    background-color: var(--cta-color);
+}
+
+.button-primary.button-icon {
+    color: var(--cta-color);
+    background-color: transparent;
+    min-width: max-content;
+    font-size: var(--size-2);
+}
+
+.button-primary.button-link:hover {
+    color: var(--cta-color);
+}
+
+.button-link {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: var(--cta-color);
+    min-width: max-content;
+    min-height: max-content;
+}
+
+.button-secondary.btn-solid{
+    background-color: var(--secondary-color);
+    color: black;
+}
+
+.button-secondary.btn-outline {
+    color: black;
+    border: 2px solid var(--secondary-color);
+}
+
+.button-secondary.button-text-icon {
+    background-color: var(--secondary-color);
+    color: black;
+}
+
+.button-secondary.button-icon {
+    color: var(--secondary-color);
+    background-color: transparent;
+    min-width: max-content;
+    font-size: var(--size-2);
+}
+
+.button-secondary.button-link:hover {
+    color: var(--secondary-color);
+}
+
+.button-disabled {
+    opacity: 20%;
+    cursor: not-allowed;
+}
+
+#btn-float-example {
+    background-color: var(--cta-color);
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 3rem;
+    min-height: 3rem;
+    border-radius: 50%;  
+    
+}
+
+.button-floating {
+    background-color: var(--cta-color);
+    position: fixed;
+    bottom: var(--size-1);
+    right: var(--size-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 3rem;
+    min-height: 3rem;
+    border-radius: 50%;      
+}

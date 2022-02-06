@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/nav-common.css">
+    <link rel="stylesheet" href="/css/utility.css">
+    <link rel="stylesheet" href="/css/button.css">
+    <title>Button</title>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="nav-main">
+
+            <div class="logo-box">
+                <a href="/index.html"><img src="/assets/HalcyonLogo.svg" alt="logo" class="logo"></a>
+            </div>
+
+            <div class="nav-list-item">
+                <ul class="ul-no-decor">
+                    <li class="documentation disp-inline-flex"><a href="#" class="link-docs">Documentation</li></a>
+                </ul>
+
+                <div class="link-social">
+                    <a href="https://github.com/bhavyaj12" target="_blank" class="nav-pills"><i
+                            class="fab fa-github "></i></a>
+                    <a href="https://twitter.com/bhavzlearn" target="_blank" class="nav-pills"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/bhavya-joshi-438178184" target="_blank" class="nav-pills"><i
+                            class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar-side">
+        <div class="mainheading-navside">
+            Components
+        </div>
+        <div class="subheading-navside">
+            <a class="link-no-decor" href="/pages/components/alert.html">Alert</a>
+            <a class="link-no-decor" href="/pages/components/avatar.html">Avatar</a>
+            <a class="link-no-decor" href="/pages/components/badge.html">Badge</a>
+            <a class="link-no-decor active" href="/pages/components/button.html">Button</a>
+            <a class="link-no-decor" href="#">Cards</a>
+            <a class="link-no-decor" href="#">Image</a>
+            <a class="link-no-decor" href="#">Input</a>
+        </div>
+    </nav>
+
+    <main class="component-disp">
+        <h1 class="header-component txt-large">Button</h1>
+        <p class="intro-comp txt-component txt-medium">Buttons are used by the website user to perform important
+            actions, or navigate the site.
+        </p>
+        <h3 class="subheader-component txt-medium">Primary Buttons</h3>
+        <p class="txt-component txt-normal">Primary buttons are the most important functionality buttons. Thus they
+            should be easily visible and accessible. To use these add the class
+            <span class="primary-color">button</span> followed by class <span
+                class="primary-color">button-primary</span> and add any of the following classes for the
+            different types of buttons -
+            <span class="primary-color">btn-solid</span>, <span class="primary-color">btn-outline</span>, <span
+                class="primary-color">button-text-icon</span>, <span class="primary-color">button-icon</span> and <span
+                class="primary-color">button-link</span>.</p>
+
+        <div class="component-example">
+            <a href="#" class="button button-primary btn-solid">Primary Solid</a>
+            <a href="#" class="button button-primary btn-outline">Primary Outline</a>
+            <a href="#" class="button button-primary button-text-icon ">
+                <span>
+                    <i class="fas fa-shopping-cart"></i>
+                </span> Add to Cart </a>
+            <a href="#" class="button button-primary button-icon">
+                <span>
+                    <i class="fab fa-github"></i>
+                </span>
+            </a>
+            <a href="#" class="button button-primary button-link">Docs</a>
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to get the buttons using classes for
+            the desired type of button.</p>
+
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522button%2520button-primary%2520btn-solid%2522%253EPrimary%2520Solid%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522button%2520button-primary%2520btn-outline%2522%253EPrimary%2520Outline%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522button%2520button-primary%2520button-text-icon%2520%2522%253E%250A%253Cspan%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fspan%253E%2520Add%2520to%2520Cart%2520%253C%252Fa%253E%250A%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522button%2520button-primary%2520button-icon%2522%253E%250A%253Cspan%253E%250A%2520%2520%253Ci%2520class%253D%2522fab%2520fa-github%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522button%2520button-primary%2520button-link%2522%253EDocs%253C%252Fa%253E"
+                style="width: 766px; height: 410px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <h3 class="subheader-component txt-medium">Secondary Buttons</h3>
+        <p class="txt-component txt-normal">To use secondary buttons add the class
+            <span class="primary-color">button</span> followed by class <span
+                class="primary-color">button-secondary</span> and add any of the following classes for the
+            different types of buttons -
+            <span class="primary-color">btn-solid</span>, <span class="primary-color">btn-outline</span>, <span
+                class="primary-color">button-text-icon</span>, <span class="primary-color">button-icon</span> and <span
+                class="primary-color">button-link</span>.</p>
+
+        <div class="component-example">
+            <a href="#" class="button button-secondary btn-solid">Primary Solid</a>
+            <a href="#" class="button button-secondary btn-outline">Primary Outline</a>
+            <a href="#" class="button button-secondary button-text-icon ">
+                <span>
+                    <i class="fas fa-shopping-cart"></i>
+                </span> Add to Cart </a>
+            <a href="#" class="button button-secondary button-icon">
+                <span>
+                    <i class="fab fa-linkedin"></i>
+                </span>
+            </a>
+            <a href="#" class="button button-secondary button-link">Docs</a>
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to get the secondary buttons using classes for
+            the desired type of button.</p>
+
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522button%2520button-secondary%2520btn-solid%2522%253EPrimary%2520Solid%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522button%2520button-secondary%2520btn-outline%2522%253EPrimary%2520Outline%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522button%2520button-secondary%2520button-text-icon%2520%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%2520Add%2520to%2520Cart%2520%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522button%2520button-secondary%2520button-icon%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fab%2520fa-linkedin%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522button%2520button-secondary%2520button-link%2522%253EDocs%253C%252Fa%253E"
+                style="width: 782px; height: 410px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <h3 class="subheader-component txt-medium">Disabled Buttons</h3>
+        <p class="txt-component txt-normal">Disabled buttons are not allowed to be clicked and perform no action. To use a disabled button add the class
+            <span class="primary-color">button-disabled</span>.</p>
+
+        <div class="component-example">
+            <a href="#" class="button button-primary btn-solid button-disabled">Primary Solid</a>
+            <a href="#" class="button button-primary btn-outline button-disabled">Primary Outline</a>
+            <a href="#" class="button button-primary button-text-icon button-disabled">
+                <span>
+                    <i class="fas fa-shopping-cart"></i>
+                </span> Add to Cart </a>
+            <a href="#" class="button button-primary button-icon button-disabled">
+                <span>
+                    <i class="fab fa-github"></i>
+                </span>
+            </a>
+            <a href="#" class="button button-primary button-link button-disabled">Docs</a>
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to get the diabled buttons of different types.</p>
+
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522button%2520button-primary%2520btn-solid%2520button-disabled%2522%253EPrimary%2520Solid%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522button%2520button-primary%2520btn-outline%2520button-disabled%2522%253EPrimary%2520Outline%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522button%2520button-primary%2520button-text-icon%2520button-disabled%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%2520Add%2520to%2520Cart%2520%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522button%2520button-primary%2520button-icon%2520button-disabled%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fab%2520fa-github%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522button%2520button-primary%2520button-link%2520button-disabled%2522%253EDocs%253C%252Fa%253E"
+                style="width: 900px; height: 410px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <h3 class="subheader-component txt-medium">Floating Buttons</h3>
+        <p class="txt-component txt-normal">Floating buttons remain at the top of all content on the website and remian
+            fixed at the bottom left of the screen. They are used to perform important actions such as - jump to top of
+            page. To use a floating button add the class
+            <span class="primary-color">button-floating</span> to the base class <span
+                class="primary-color">button</span>.</p>
+
+        <div class="component-example">
+            <a href="#" class="button button-primary btn-solid" id="btn-float-example">
+                <i class="fas fa-arrow-alt-circle-right"></i>
+            </a>
+            <a href="#" class="button button-floating">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to get the floating button.</p>
+
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522button%2520button-floating%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-arrow-up%2522%253E%253C%252Fi%253E%250A%253C%252Fa%253E%2520%2520%2520"
+                style="width: 513px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <footer class="footer-components">
+            <a href="/pages/components/badge.html" class="btn-footer"><img src="/assets/arrow-left.svg"> Badge
+            </a>
+            <a href="#" class="btn-footer"> Cards <img src="/assets/arrow-right.svg"> </a>
+        </footer>
+    </main>
+
+</body>
+
+</html>

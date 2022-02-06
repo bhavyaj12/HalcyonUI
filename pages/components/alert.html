@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/nav-common.css">
+    <link rel="stylesheet" href="/css/utility.css">
+    <link rel="stylesheet" href="/css/alert.css">
+    <title>Alert</title>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="nav-main">
+
+            <div class="logo-box">
+                <a href="/index.html"><img src="/assets/HalcyonLogo.svg" alt="logo" class="logo"></a>
+            </div>
+
+            <div class="nav-list-item">
+                <ul class="ul-no-decor">
+                    <li class="documentation disp-inline-flex"><a href="#" class="link-docs">Documentation</li></a>
+                </ul>
+
+                <div class="link-social">
+                    <a href="https://github.com/bhavyaj12" target="_blank" class="nav-pills"><i
+                            class="fab fa-github "></i></a>
+                    <a href="https://twitter.com/bhavzlearn" target="_blank" class="nav-pills"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/bhavya-joshi-438178184" target="_blank" class="nav-pills"><i
+                            class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar-side">
+        <div class="mainheading-navside">
+            Components
+        </div>
+        <div class="subheading-navside">
+            <a class="link-no-decor active" href="/pages/components/alert.html">Alert</a>
+            <a class="link-no-decor" href="/pages/components/avatar.html">Avatar</a>
+            <a class="link-no-decor" href="/pages/components/badge.html">Badge</a>
+            <a class="link-no-decor" href="/pages/components/button.html">Button</a>
+            <a class="link-no-decor" href="#">Card</a>
+            <a class="link-no-decor" href="#">Image</a>
+            <a class="link-no-decor" href="#">Input</a>
+        </div>
+    </nav>
+
+    <main class="component-disp">
+        <h1 class="header-component txt-large">Alert</h1>
+        <p class="intro-comp txt-component txt-medium">Alerts can be used to inform the user about some important
+            information usually with a pop up on the screen.
+        </p>
+        <h3 class="subheader-component txt-medium">Normal Alert</h3>
+        <p class="txt-component txt-normal">Alerts are available in 5 different types - primary, secondary, success,
+            error and warning. To use alerts in your site, add the base class
+            <span class="primary-color">alert-container</span> and add any one of the following classes for the
+            different types -
+            <span class="primary-color">alert-primary</span>, <span class="primary-color">alert-secondary</span>, <span
+                class="primary-color">alert-success</span>, <span class="primary-color">alert-error</span>, and <span
+                class="primary-color">alert-warning</span>.</p>
+
+        <div class="component-example">
+            <div class="alert-container alert-primary">
+                <p class="text-alert">Primary! This is a primary alert, click now!</p>
+            </div>
+            <div class="alert-container alert-secondary">
+                <p class="text-alert">Secondary! This is a secondary alert, click now!</p>
+            </div>
+            <div class="alert-container alert-success">
+                <p class="text-alert">Success! This is a success alert, click now!</p>
+            </div>
+            <div class="alert-container alert-error">
+                <p class="text-alert">Error! This is an error alert, click now!</p>
+            </div>
+            <div class="alert-container alert-warning">
+                <p class="text-alert">Warning! This is a warning alert, click now!</p>
+            </div>
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to get the alerts using appropriate classes for
+            the type of alert.</p>
+
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-container%2520alert-primary%2522%253E%250A%2509Primary%21%2520This%2520is%2520a%2520primary%2520alert%252C%2520click%2520now%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-container%2520alert-secondary%2522%253E%250A%2509Secondary%21%2520This%2520is%2520a%2520secondary%2520alert%252C%2520click%2520now%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-container%2520alert-success%2522%253E%250A%2509Success%21%2520This%2520is%2520a%2520success%2520alert%252C%2520click%2520now%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-container%2520alert-error%2522%253E%250A%2509Error%21%2520This%2520is%2520an%2520error%2520alert%252C%2520click%2520now%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-container%2520alert-warning%2522%253E%250A%2509Warning%21%2520This%2520is%2520a%2520warning%2520alert%252C%2520click%2520now%21%250A%253C%252Fdiv%253E"
+                style="width: 571px; height: 448px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <h3 class="subheader-component txt-medium">Alerts with Close Button</h3>
+        <p class="txt-component txt-normal ">Alerts with a close button can be dismissed by simply clicking on the close
+            button.
+            <div class="component-example">
+                <div class="alert-container alert-primary" id="alert-close-box">
+                    <p class="text-alert">Primary! This is a primary alert, click now!</p>
+                    <button class="btn-close" id="alert-close-btn">
+                    </button>
+                </div>
+            </div>
+
+            <p class="txt-component txt-normal">You can paste the below code (both HTML and JavaScript) to get the alert
+                with close functionality along with the alert type class that you want.</p>
+
+            <div class="code-display">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-container%2520alert-primary%2522%2520id%253D%2522alert-close-box%2522%253E%250A%2509%253Cp%2520class%253D%2522text-alert%2522%253EPrimary%21%2520This%2520is%2520a%2520primary%2520alert%252C%2520click%2520now%21%253C%252Fp%253E%250A%2509%253Cbutton%2520class%253D%2522btn-close%2522%2520id%253D%2522alert-close-btn%2522%253E%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                    style="width: 757px; height: 243px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </div>
+
+            <h4 class="txt-small m-1">JavaScript</h4>
+            <div class="code-display">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520closeBtn%2520%253D%2520document.querySelector%28%2522%2523alert-close-btn%2522%29%253B%250Aconst%2520alertExample%2520%253D%2520document.querySelector%28%2522%2523alert-close-box%2522%29%253B%250A%250AcloseBtn.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520alertExample.style.display%2520%253D%2520%2522none%2522%253B%250A%257D%29"
+                    style="width: 673px; height: 281px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <footer class="footer-components">
+                <a href="#" class="btn-footer"><img src=""> </a>
+                <a href="/pages/components/avatar.html" class="btn-footer"> Avatar <img src="/assets/arrow-right.svg">
+                </a>
+            </footer>
+
+            <script src="/JavaScript/alert.js"></script>
+
+
+    </main>
+
+</body>
+
+</html>

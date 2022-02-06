@@ -11,12 +11,15 @@
 }
 
 :root {
-    --cta-color: #7f17c8;
+    --cta-color: #7e17c8;
     --secondary-color: #d8b9ee;
     --accent-color: #44242400;
     --font-color: #000000;
     --grey-border: rgb(153, 153, 153);
     --grey-bg: #ececec;
+    --error-color: #ed7d7d;
+    --success-color: #88ed7d;
+    --warning-color: #edb47d;
 
 
     --size-0-5: 0.5rem;
@@ -70,7 +73,7 @@
     font-size: 1.1rem;
 }
 
-a:hover {
+.nav-main a:hover {
     color: var(--cta-color);
 }
 
