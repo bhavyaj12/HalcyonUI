@@ -1,0 +1,59 @@
+.input-field {
+    padding: var(--size-1);
+    border-radius: 0.4rem;
+    border: 1px solid var(--cta-color);
+    display: block;
+    width: 100%;
+    font-size: var(--size-1);
+}
+
+.input-required:after {
+    content: " *";
+    color: var(--cta-color);
+}
+
+.input-div {
+    width: 80%;
+    margin: var(--size-0-75) var(--size-0-75);    
+}
+
+.input-label {
+    padding: var(--size-0-5) 0;
+    display: block;
+}
+
+.input-field:disabled{
+    background-color: var(--grey-bg);
+}
+
+.validation-msg {
+    padding: 0 var(--size-1);
+}
+
+.input-val-error {
+    color: var(--error-color);
+}
+
+.input-val-success {
+    color: var(--success-color);
+}
+
+.checkbox-field {
+    display: inline-block; 
+    border-radius: 0.4rem;
+    margin: 0 0.1rem 0 0.5rem;
+    position: relative;
+    top: 0.15rem;
+    width: var(--size-1);
+    height: var(--size-1);
+
+}
+
+form .button:hover {
+    opacity: 0.8;
+    transition-delay: 100ms;
+}
+
+.input-field:focus-within{
+    box-shadow: 0 0 0 1px var(--cta-color);
+}

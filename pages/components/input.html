@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/nav-common.css">
+    <link rel="stylesheet" href="/css/utility.css">
+    <link rel="stylesheet" href="/css/button.css">
+    <link rel="stylesheet" href="/css/input.css">
+    <title>Input</title>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="nav-main">
+
+            <div class="logo-box">
+                <a href="/index.html"><img src="/assets/HalcyonLogo.svg" alt="logo" class="logo"></a>
+            </div>
+
+            <div class="nav-list-item">
+                <ul class="ul-no-decor">
+                    <li class="documentation disp-inline-flex"><a href="#" class="link-docs">Documentation</li></a>
+                </ul>
+
+                <div class="link-social">
+                    <a href="https://github.com/bhavyaj12" target="_blank" class="nav-pills"><i
+                            class="fab fa-github "></i></a>
+                    <a href="https://twitter.com/bhavzlearn" target="_blank" class="nav-pills"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/bhavya-joshi-438178184" target="_blank" class="nav-pills"><i
+                            class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar-side">
+        <div class="mainheading-navside">
+            Components
+        </div>
+        <div class="subheading-navside">
+            <a class="link-no-decor" href="/pages/components/alert.html">Alert</a>
+            <a class="link-no-decor" href="/pages/components/avatar.html">Avatar</a>
+            <a class="link-no-decor" href="/pages/components/badge.html">Badge</a>
+            <a class="link-no-decor" href="/pages/components/button.html">Button</a>
+            <a class="link-no-decor" href="/pages/components/card.html">Card</a>
+            <a class="link-no-decor" href="/pages/components/image.html">Image</a>
+            <a class="link-no-decor active" href="/pages/components/input.html">Input</a>
+            <a class="link-no-decor" href="/pages/components/lists.html">Lists</a>
+            <a class="link-no-decor" href="/pages/components/modal.html">Modal</a>
+            <a class="link-no-decor" href="/pages/components/navigation.html">Navigation</a>
+            <a class="link-no-decor" href="/pages/components/rating.html">Rating</a>
+            <a class="link-no-decor" href="/pages/components/simplified-grid.html">Simplified Grid</a>
+            <a class="link-no-decor" href="/pages/components/text-utilities.html">Text Utilities</a>
+            <a class="link-no-decor" href="/pages/components/toast.html">Toast</a>
+
+        </div>
+    </nav>
+
+    <main class="component-disp">
+        <h1 class="header-component txt-large">Input</h1>
+        <p class="intro-comp txt-component txt-medium">Websites need one must have component, which is often overlooked
+            in terms of design. Input fields and forms are present everwhere and are very crucial.
+        </p>
+        <h3 class="subheader-component txt-medium">Normal Active Input</h3>
+        <p class="txt-component txt-normal">To add input form components to your site, add the class <span
+                class="primary-color">input-label</span> to labels, add <span class="primary-color">input-field</span>
+            for the fields, <span class="primary-color">input-textarea</span> for textarea input, and <span
+                class="primary-color">input-required</span> for fields that are necessary.</p>
+
+        <div class="component-example">
+            <div class="input-div">
+                <label class="input-label input-required">Email address</label>
+                <input type="email" class="input-field" placeholder="abc@example.com" required>
+            </div>
+            <div class="input-div">
+                <label class="input-label">Work Experience</label>
+                <textarea class="input-field input-textarea" placeholder="Enter text here..." rows="4"></textarea>
+            </div>
+            <div class="input-div">
+                <label class="input-label input-required">Password</label>
+                <input type="password" class="input-field" placeholder="Enter password" required>
+            </div>
+
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to create relevant input fields.</p>
+
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-div%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2520input-required%2522%253EEmail%2520address%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522input-field%2522%2520placeholder%253D%2522abc%2540example.com%2522%2520required%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-div%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%253EWork%2520Experience%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Ctextarea%2520class%253D%2522input-field%2520input-textarea%2522%2520placeholder%253D%2522Enter%2520text%2520here...%2522%2520rows%253D%25224%2522%253E%253C%252Ftextarea%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-div%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2520input-required%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522input-field%2522%2520placeholder%253D%2522Enter%2520password%2522%2520required%253E%250A%253C%252Fdiv%253E"
+                style="width: 994px; height: 393px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <h3 class="subheader-component txt-medium">Disabled and Read Only Input</h3>
+        <p class="txt-component txt-normal">To add disabled input form components to your site, add the attribute <span
+                class="primary-color">disabled</span>. For read only fields add <span
+                class="primary-color">readonly</span>.</p>
+
+        <div class="component-example">
+            <div class="input-div">
+                <label class="input-label">Address</label>
+                <input type="text" class="input-field" placeholder="Enter address" disabled>
+            </div>
+            <div class="input-div">
+                <label class="input-label">Phone</label>
+                <input type="number" class="input-field" placeholder="Enter phone" readonly>
+            </div>
+
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to create relevant disabled input fields.</p>
+
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-div%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%253EAddress%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-field%2522%2520placeholder%253D%2522Enter%2520address%2522%2520disabled%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-div%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%253EPhone%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522number%2522%2520class%253D%2522input-field%2522%2520placeholder%253D%2522Enter%2520phone%2522%2520readonly%253E%250A%253C%252Fdiv%253E"
+                style="width: 809px; height: 319px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <h3 class="subheader-component txt-medium">Input Form with Validation</h3>
+        <p class="txt-component txt-normal">To add an input form with validation to your site, add the relevant HTML
+            code. This code contains both error and success validation messages, which can be manipulated by using
+            JavaScript.</p>
+
+        <div class="component-example">
+            <div class="input-div">
+                <form class="form-validate-example" novalidate>
+                    <div class="input-div">
+                        <label class="input-label input-required ">Email address</label>
+                        <input type="email" class="input-field" placeholder="abc@example.com" required>
+                    </div>
+                    <div class="validation-msg input-val-error"><span><i class="fas fa-exclamation-circle"></i></span>
+                        Please fill email!
+                    </div>
+                    <div class="validation-msg input-val-success"><span><i class="fas fa-check-circle"></i></span>
+                    </div>
+                    <div class="input-div">
+                        <label class="input-label input-required">Select state</label>
+                        <select class="input-field" required>
+                            <option value="Delhi">Delhi</option>
+                            <option value="America">Bangalore</option>
+                        </select>
+                    </div>
+
+                    <div class="input-div">
+                        <label class="input-label input-required">Password</label>
+                        <input type="password" class="input-field" placeholder="Enter password" required maxlength="20"
+                            minlength="6">
+                    </div>
+                    <div class="validation-msg input-val-error"><span><i class="fas fa-exclamation-circle"></i></span>
+                        Please recheck your password, it should be between 6 to 20 characters.
+                    </div>
+                    <div class="validation-msg input-val-success"><span><i class="fas fa-check-circle"></i></span>
+                    </div>
+
+
+                    <div class="input-div">
+                        <label class="input-label input-required">Gender</label>
+                        <input class="checkbox-field" type="radio" name="gender" value="F" id="female" checked />
+                        <label for="female">Female</label>
+                        <input class="checkbox-field" type="radio" name="gender" value="M" id="male" />
+                        <label for="male">Male</label>
+                        <input class="checkbox-field" type="radio" name="gender" value="T" id="trans" />
+                        <label for="trans">Transperson</label>
+                        <input class="checkbox-field" type="radio" name="gender" value="N" id="nonbinary" />
+                        <label for="nonbinary">Non Binary</label>
+                    </div>
+                    <div class="input-div">
+                        <label class="input-label input-required">Birthdate</label>
+                        <input type="date" class="input-field" required>
+                    </div>
+                    <div class="validation-msg input-val-error"><span><i class="fas fa-exclamation-circle"></i></span>
+                        Please enter birthdate.
+                    </div>
+                    <div class="validation-msg input-val-success"><span><i class="fas fa-check-circle"></i></span>
+                    </div>
+
+                    <button class="button button-primary btn-solid">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to create validation input form.</p>
+
+        <div class="code-display">
+            <iframe src="https://carbon.now.sh/embed/fl8S5Ps2SlPGrkKgfZMj"
+                style="width: 730px; height: 400px; max-height: 400px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <footer class="footer-components">
+            <a href="/pages/components/image.html" class="btn-footer"><img src="/assets/arrow-left.svg"> Image
+            </a>
+            <a href="/pages/components/text-utilities.html" class="btn-footer"> Text Utilities <img
+                    src="/assets/arrow-right.svg">
+            </a>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
