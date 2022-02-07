@@ -24,6 +24,10 @@
     background-color: var(--cta-color);
 }
 
+.button .fas, .button .fab, .button .far {
+    margin-right: 0.4rem;
+}
+
 .button-primary.button-icon {
     color: var(--cta-color);
     background-color: transparent;

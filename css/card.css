@@ -1,0 +1,84 @@
+.card-flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .card-shadow:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2), 15px 17px 60px var(--grey-bg);
+  }
+  
+  .card {
+    border-radius: var(--size-1);
+    background-color: #fbf5ffe5;
+    border: 2px solid var(--grey-bg);
+    margin: var(--size-1) var(--size-1);
+  }
+
+  .discount {
+    color: #29ce31e5;
+  }
+  
+  .card-text-only h2 {
+    margin: 0 0 1rem 0;
+  }
+  
+  .card-text-only p {
+    margin: 0.7rem 0;
+  }
+  
+  .card-text-only {
+    display: block;
+    padding: var(--size-1);
+    height: 25rem;
+    width: 30rem;
+    height: fit-content;
+    width: fit-content;
+  }
+  
+
+  .card-hz-btn .button {
+    width: 14rem;
+    margin-left: 0;
+  }
+
+  .card-hz {
+    max-width: 35rem;
+  }
+
+  .hz-card-img {
+    max-width: 25rem;
+    max-height: 20rem;
+  }
+
+  .hz-card-text {
+    width: 50%;
+  }
+
+  .card .button:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .vt-card-img {
+    max-width: 20rem;
+    max-height: 30rem;
+  }
+
+  .card-vt-btn {
+    justify-content: space-between;
+  }
+
+  .card-vt-btn .button {
+    width: 10rem;
+    margin: 0;
+    font-size: 0.75rem;
+  }
+
+  .card-vertical {
+    width: 23rem;
+    text-align: center;
+  }
+
+  .rating {
+    text-align: center;
+  }
