@@ -32,6 +32,10 @@
 
 /* text size */
 
+.txt-xs {
+    font-size: var(--size-0-5);
+}
+
 .txt-small {
     font-size: var(--size-0-75);
 }

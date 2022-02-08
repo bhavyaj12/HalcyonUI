@@ -82,3 +82,30 @@
   .rating {
     text-align: center;
   }
+
+  .ecomm-card .vt-card-img{
+    max-width: 10rem;
+    max-height: 13rem;
+    width: 10rem;
+    height: 13rem;
+    object-fit: cover;
+  }
+
+.card.ecomm-card  {
+    max-width: 12rem;
+  }
+
+  .card.ecomm-card .vt-card-text {
+    text-align: left;
+  }
+
+  .ecomm-card .card-price .disc-price {
+    font-size: 0.7rem;
+    color: var(--grey-border);
+  }
+
+  .ecomm-card-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }

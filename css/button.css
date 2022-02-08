@@ -88,7 +88,10 @@
     min-width: 3rem;
     min-height: 3rem;
     border-radius: 50%;  
-    
+}
+
+.button.button-floating .fas {
+    margin: 0;
 }
 
 .button-floating {
