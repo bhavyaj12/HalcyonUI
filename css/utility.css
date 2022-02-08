@@ -665,15 +665,32 @@
 
 /* display */
 
-d-inline {
+.d-inline {
     display: inline;
 }
 
-d-block {
+.d-block {
     display: block;
 }
 
-d-inline-bl {
+.d-inline-bl {
     display: inline-block;
 }
 
+/* position */
+
+.pos-relative {
+    position: relative;
+}
+
+.pos-absolute {
+    position: relative;
+}
+
+.pos-sticky {
+    position: sticky;
+}
+
+.pos-fixed {
+    position: fixed;
+}

@@ -11,7 +11,7 @@
     margin: var(--size-1);
 }
 
-.button-primary.btn-solid{
+.button-primary.btn-solid {
     background-color: var(--cta-color);
 }
 
@@ -24,7 +24,9 @@
     background-color: var(--cta-color);
 }
 
-.button .fas, .button .fab, .button .far {
+.button .fas,
+.button .fab,
+.button .far {
     margin-right: 0.4rem;
 }
 
@@ -47,7 +49,7 @@
     min-height: max-content;
 }
 
-.button-secondary.btn-solid{
+.button-secondary.btn-solid {
     background-color: var(--secondary-color);
     color: black;
 }
@@ -87,7 +89,7 @@
     text-align: center;
     min-width: 3rem;
     min-height: 3rem;
-    border-radius: 50%;  
+    border-radius: 50%;
 }
 
 .button.button-floating .fas {
@@ -105,5 +107,5 @@
     text-align: center;
     min-width: 3rem;
     min-height: 3rem;
-    border-radius: 50%;      
+    border-radius: 50%;
 }

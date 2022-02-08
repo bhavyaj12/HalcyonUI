@@ -14,7 +14,7 @@
 
 .input-div {
     width: 80%;
-    margin: var(--size-0-75) var(--size-0-75);    
+    margin: var(--size-0-75) var(--size-0-75);
 }
 
 .input-label {
@@ -22,7 +22,7 @@
     display: block;
 }
 
-.input-field:disabled{
+.input-field:disabled {
     background-color: var(--grey-bg);
 }
 
@@ -39,7 +39,7 @@
 }
 
 .checkbox-field {
-    display: inline-block; 
+    display: inline-block;
     border-radius: 0.4rem;
     margin: 0 0.1rem 0 0.5rem;
     position: relative;
@@ -54,6 +54,6 @@ form .button:hover {
     transition-delay: 100ms;
 }
 
-.input-field:focus-within{
+.input-field:focus-within {
     box-shadow: 0 0 0 1px var(--cta-color);
 }

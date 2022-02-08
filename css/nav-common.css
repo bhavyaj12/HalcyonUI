@@ -20,6 +20,10 @@
     --error-color: #ed7d7d;
     --success-color: #88ed7d;
     --warning-color: #edb47d;
+    --disc-green: #1cc925e5;
+    --white-bg: #ffffffff;
+    --overlay-bg: rgba(251, 251, 255, 0.664);
+    --card-bg: #fbf5ffe5;
 
 
     --size-0-5: 0.5rem;
@@ -185,4 +189,3 @@ footer a {
     font-weight: 300;
     text-decoration: none;
 }
-

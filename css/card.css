@@ -1,111 +1,189 @@
 .card-flex {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  
-  .card-shadow:hover {
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2), 15px 17px 60px var(--grey-bg);
-  }
-  
-  .card {
-    border-radius: var(--size-1);
-    background-color: #fbf5ffe5;
-    border: 2px solid var(--grey-bg);
-    margin: var(--size-1) var(--size-1);
-  }
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-  .discount {
-    color: #29ce31e5;
-  }
-  
-  .card-text-only h2 {
-    margin: 0 0 1rem 0;
-  }
-  
-  .card-text-only p {
-    margin: 0.7rem 0;
-  }
-  
-  .card-text-only {
-    display: block;
-    padding: var(--size-1);
-    height: 25rem;
-    width: 30rem;
-    height: fit-content;
-    width: fit-content;
-  }
-  
+.card-shadow:hover {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2), 15px 17px 60px var(--grey-bg);
+  transition-delay: 100ms;
+}
 
-  .card-hz-btn .button {
-    width: 14rem;
-    margin-left: 0;
-  }
+.card {
+  border-radius: var(--size-1);
+  background-color: var(--card-bg);
+  border: 2px solid var(--grey-bg);
+  margin: var(--size-1) var(--size-1);
+}
 
-  .card-hz {
-    max-width: 35rem;
-  }
+.discount {
+  color: var(--disc-green);
+}
 
-  .hz-card-img {
-    max-width: 25rem;
-    max-height: 20rem;
-  }
+.card-text-only h2 {
+  margin: 0 0 1rem 0;
+}
 
-  .hz-card-text {
-    width: 50%;
-  }
+.card-text-only p {
+  margin: 0.7rem 0;
+}
 
-  .card .button:hover {
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
-  }
+.card-text-only {
+  display: block;
+  padding: var(--size-1);
+  height: 25rem;
+  width: 30rem;
+  height: fit-content;
+  width: fit-content;
+  max-width: 35rem;
+  min-height: 10rem;
+}
 
-  .vt-card-img {
-    max-width: 20rem;
-    max-height: 30rem;
-  }
 
-  .card-vt-btn {
-    justify-content: space-between;
-  }
+.card-hz-btn .button {
+  width: 14rem;
+  margin-left: 0;
+}
 
-  .card-vt-btn .button {
-    width: 10rem;
-    margin: 0;
-    font-size: 0.75rem;
-  }
+.card-hz {
+  max-width: 35rem;
+}
 
-  .card-vertical {
-    width: 23rem;
-    text-align: center;
-  }
+.hz-card-img {
+  max-width: 25rem;
+  max-height: 20rem;
+}
 
-  .rating {
-    text-align: center;
-  }
+.hz-card-text {
+  width: 50%;
+}
 
-  .ecomm-card .vt-card-img{
-    max-width: 10rem;
-    max-height: 13rem;
-    width: 10rem;
-    height: 13rem;
-    object-fit: cover;
-  }
+.card .button:hover {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
 
-.card.ecomm-card  {
-    max-width: 12rem;
-  }
+.vt-card-img {
+  max-width: 20rem;
+  max-height: 30rem;
+}
 
-  .card.ecomm-card .vt-card-text {
-    text-align: left;
-  }
+.card-vt-btn {
+  justify-content: space-between;
+}
 
-  .ecomm-card .card-price .disc-price {
-    font-size: 0.7rem;
-    color: var(--grey-border);
-  }
+.card-vt-btn .button {
+  width: 10rem;
+  margin: 0;
+  font-size: 0.75rem;
+}
 
-  .ecomm-card-heading {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.9rem;
-    font-weight: 500;
-  }
+.card-vertical {
+  width: 23rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.rating {
+  text-align: center;
+}
+
+.ecomm-card .vt-card-img {
+  max-width: 10rem;
+  max-height: 13rem;
+  width: 10rem;
+  height: 13rem;
+  object-fit: cover;
+}
+
+.card.ecomm-card {
+  max-width: 12rem;
+}
+
+.card.ecomm-card .vt-card-text {
+  text-align: left;
+}
+
+.ecomm-card .card-price .disc-price {
+  font-size: 0.7rem;
+  color: var(--grey-border);
+}
+
+.ecomm-card-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.img-badge-container {
+  position: relative;
+}
+
+.vt-card-badge {
+  background-color: var(--success-color);
+  border-radius: 0.3rem;
+  font-weight: 500;
+  position: absolute;
+  top: var(--size-1-5);
+  left: var(--size-1);
+}
+
+.ecomm-card .vt-card-badge {
+  background-color: var(--success-color);
+  border-radius: 0.3rem;
+  font-weight: 500;
+  position: absolute;
+  top: 5px;
+  left: 0.1px;
+}
+
+.card .btn-close {
+  position: absolute;
+  background-color: var(--white-bg);
+  opacity: 0.8;
+  border-radius: 50%;
+  width: var(--size-2);
+  height: var(--size-2);
+  cursor: pointer;
+  top: 5px;
+  left: 20.4rem;
+}
+
+.ecomm-card .btn-close {
+  position: absolute;
+  background-color: var(--white-bg);
+  opacity: 0.8;
+  border-radius: 50%;
+  width: var(--size-1-5);
+  height: var(--size-1-5);
+  cursor: pointer;
+  top: -10px;
+  left: 9.4rem;
+}
+
+.overlay-container {
+  opacity: 0.8;
+  border-radius: var(--size-1);
+  background-color: var(--grey-bg);
+}
+
+.text-overlay {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--size-1);
+  background-color: var(--overlay-bg);
+  color: var(--font-color);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-weight: 900;
+}
+
+.ecomm-card .text-overlay {
+  font-weight: 500;
+  font-size: var(--size-1);
+}
