@@ -25,6 +25,8 @@
     --overlay-bg: rgba(251, 251, 255, 0.664);
     --card-bg: #fbf5ffe5;
     --gray-txt: rgb(97, 96, 96);
+    --light-grey: rgb(83, 100, 113);
+    --list-bg: rgb(253, 242, 255);
 
 
     --size-0-5: 0.5rem;
@@ -189,4 +191,8 @@ footer a {
     font-size: 1.2rem;
     font-weight: 300;
     text-decoration: none;
+}
+
+.code-display iframe {
+    max-height: 400px;
 }

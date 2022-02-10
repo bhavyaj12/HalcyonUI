@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/halcyon.css">
+    <title>Lists</title>
+</head>
+
+<body>
+
+    <!-- Top Nav Bar -->
+    <nav class="nav-bar">
+        <div class="nav-main">
+
+            <div class="logo-box">
+                <a href="/index.html"><img src="/assets/HalcyonLogo.svg" alt="logo" class="logo"></a>
+            </div>
+
+            <div class="nav-list-item">
+                <ul class="ul-no-decor">
+                    <li class="documentation disp-inline-flex"><a href="#" class="link-docs">Documentation</li></a>
+                </ul>
+
+                <div class="link-social">
+                    <a href="https://github.com/bhavyaj12" target="_blank" class="nav-pills"><i
+                            class="fab fa-github "></i></a>
+                    <a href="https://twitter.com/bhavzlearn" target="_blank" class="nav-pills"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/bhavya-joshi-438178184" target="_blank" class="nav-pills"><i
+                            class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Side Nav Bar -->
+    <nav class="navbar-side">
+        <div class="mainheading-navside">
+            Components
+        </div>
+        <div class="subheading-navside">
+            <a class="link-no-decor" href="/pages/components/alert.html">Alert</a>
+            <a class="link-no-decor" href="/pages/components/avatar.html">Avatar</a>
+            <a class="link-no-decor" href="/pages/components/badge.html">Badge</a>
+            <a class="link-no-decor" href="/pages/components/button.html">Button</a>
+            <a class="link-no-decor" href="/pages/components/card.html">Card</a>
+            <a class="link-no-decor" href="/pages/components/image.html">Image</a>
+            <a class="link-no-decor" href="/pages/components/input.html">Input</a>
+            <a class="link-no-decor active" href="/pages/components/lists.html">Lists</a>
+            <a class="link-no-decor" href="/pages/components/modal.html">Modal</a>
+            <a class="link-no-decor" href="/pages/components/navigation.html">Navigation</a>
+            <a class="link-no-decor" href="/pages/components/rating.html">Rating</a>
+            <a class="link-no-decor" href="/pages/components/simplified-grid.html">Simplified Grid</a>
+            <a class="link-no-decor" href="/pages/components/text-utilities.html">Text Utilities</a>
+            <a class="link-no-decor" href="/pages/components/toast.html">Toast</a>
+        </div>
+    </nav>
+
+    <main class="component-disp">
+        <h1 class="header-component txt-large">Lists</h1>
+        <p class="intro-comp txt-component txt-medium">Lists are used to arrange items together and present information
+            using numbered text or bullets.
+        </p>
+
+        <!-- Normal lists -->
+        <h3 class="subheader-component 
+        txt-medium">Normal Lists</h3>
+        <p class="txt-component txt-normal">Normal lists can be used to present information items together, as numbered
+            (ordered) or not-numbered (unordered).</p>
+        <div class="component-example">
+            <ol class="list-type-num list-container m-3">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ol>
+            <ol class="list-type-roman list-container m-3">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ol>
+            <ol class="list-type-alpha list-container m-3">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ol>
+            <ul class="list-container m-3">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul>
+            <ul class="list-type-sq list-container m-3">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul>
+            <ul class="list-type-circle list-container m-3">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul>
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to get the lists of above styles.</p>
+
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Col%2520class%253D%2522list-type-num%2520list-container%2520m-3%2522%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25204%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list-type-roman%2520list-container%2520m-3%2522%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25204%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list-type-alpha%2520list-container%2520m-3%2522%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25204%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Cul%2520class%253D%2522list-container%2520m-3%2522%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25204%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522list-type-sq%2520list-container%2520m-3%2522%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25204%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522list-type-circle%2520list-container%2520m-3%2522%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25204%253C%252Fli%253E%250A%253C%252Ful%253E"
+                style="width: 554px; height: 856px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <!-- Nested lists -->
+        <h3 class="subheader-component 
+        txt-medium">Nested Lists</h3>
+        <p class="txt-component txt-normal">Nested lists can be used to present information items together where one
+            list is nested within another.</p>
+        <div class="component-example">
+            <ul class="category-list-container m-3">
+                <div class="list-title txt-medium my-1">Categories</div>
+                <li>Home</li>
+                <li class="collapsable-list">
+                    <div>PC Games</div>
+                    <ul>
+                        <li>Horizon Zero Dawn</li>
+                        <li>The Witcher 3: Wild Hunt</li>
+                        <li>Life is Strange</li>
+                    </ul>
+                </li>
+                <li>PlayStation 4</li>
+                <li>PlayStation 5</li>
+            </ul>
+            <ul class="nested-list-container m-3">
+                <li>Item 1</li>
+                <ul>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                </ul>
+            </ul>
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to get the lists of above styles.</p>
+
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522category-list-container%2520m-3%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-title%2520txt-medium%2520my-1%2522%253ECategories%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cli%253EHome%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522collapsable-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253EText...%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EText...%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EText...%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EText...%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EText...%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EText...%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522nested-list-container%2520m-3%2522%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EItem%25204%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Ful%253E"
+                style="width: 640px; height: 579px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <!-- Spaced list -->
+        <h3 class="subheader-component 
+        txt-medium">Spaced List</h3>
+        <p class="txt-component txt-normal">Spaced lists can be used to present information items together where one
+            with uniform space between each item.</p>
+        <div class="component-example">
+            <ul class="ul-no-decor p-8">
+                <li class="notif-list-item mt-3">
+                    <div class="p-3">
+                        <div class="notification-name">
+                            <div class="avatar-md">
+                                <img src="/assets/Round Image.jpg" class="img-round" alt="Puppy eyes" />
+                            </div>
+                            <div class="ml-4">
+                                <h5>Puppy Dog</h5>
+                                <p class="my-1 txt-small">
+                                    @puppydog
+                                </p>
+                            </div>
+                        </div>
+
+                        <p class="text-sm my-2">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+                            dolore earum ducimus quaerat perferendis natus itaque beatae quae et
+                            assumenda id quo eius facere, illum excepturi sapiente ipsam. Iste,
+                            quos.
+                    </div>
+                </li>
+                <li class="notif-list-item mt-3">
+                    <div class="p-3">
+                        <div class="notification-name">
+                            <div class="avatar-md">
+                                <img src="/assets/Round Image.jpg" class="img-round" alt="Puppy eyes" />
+                            </div>
+                            <div class="ml-4">
+                                <h5>Puppy Dog</h5>
+                                <p class="my-1 txt-small">
+                                    @puppydog
+                                </p>
+                            </div>
+                        </div>
+
+                        <p class="text-sm my-2">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+                            dolore earum ducimus quaerat perferendis natus itaque beatae quae et
+                            assumenda id quo eius facere, illum excepturi sapiente ipsam. Iste,
+                            quos.
+                    </div>
+                </li>
+                <li class="notif-list-item mt-3">
+                    <div class="p-3">
+                        <div class="notification-name">
+                            <div class="avatar-md">
+                                <img src="/assets/Round Image.jpg" class="img-round" alt="Puppy eyes" />
+                            </div>
+                            <div class="ml-4">
+                                <h5>Puppy Dog</h5>
+                                <p class="my-1 txt-small">
+                                    @puppydog
+                                </p>
+                            </div>
+                        </div>
+
+                        <p class="text-sm my-2">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+                            dolore earum ducimus quaerat perferendis natus itaque beatae quae et
+                            assumenda id quo eius facere, illum excepturi sapiente ipsam. Iste,
+                            quos.
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to get the spaced lists of above styles, this
+            code will give you 2 items, rest you can add as many by simply duplicating the li item.</p>
+
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522ul-no-decor%2520p-8%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522notif-list-item%2520mt-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522p-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522notification-name%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252FRound%2520Image.jpg%2522%2520class%253D%2522img-round%2522%2520alt%253D%2522Puppy%2520eyes%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522ml-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253EPuppy%2520Dog%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522my-1%2520txt-small%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2540puppydog%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-sm%2520my-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Suscipit%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520dolore%2520earum%2520ducimus%2520quaerat%2520perferendis%2520natus%2520itaque%2520beatae%2520quae%2520et%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520assumenda%2520id%2520quo%2520eius%2520facere%252C%2520illum%2520excepturi%2520sapiente%2520ipsam.%2520Iste%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520quos.%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522notif-list-item%2520mt-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522p-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522notification-name%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252FRound%2520Image.jpg%2522%2520class%253D%2522img-round%2522%2520alt%253D%2522Puppy%2520eyes%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522ml-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253EPuppy%2520Dog%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522my-1%2520txt-small%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2540puppydog%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-sm%2520my-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Suscipit%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520dolore%2520earum%2520ducimus%2520quaerat%2520perferendis%2520natus%2520itaque%2520beatae%2520quae%2520et%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520assumenda%2520id%2520quo%2520eius%2520facere%252C%2520illum%2520excepturi%2520sapiente%2520ipsam.%2520Iste%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520quos.%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E"
+                style="width: 681px; height: 1138px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <!-- Stacked list -->
+        <h3 class="subheader-component 
+        txt-medium">Stacked List</h3>
+        <p class="txt-component txt-normal">Stacked lists can be used to present information items together where there is no space between each item.</p>
+        <div class="component-example">
+            <ul class="ul-no-decor p-8">
+                <li class="notif-list-item">
+                    <div class="p-3">
+                        <div class="notification-name">
+                            <div class="avatar-md">
+                                <img src="/assets/Round Image.jpg" class="img-round" alt="Puppy eyes" />
+                            </div>
+                            <div class="ml-4">
+                                <h5>Puppy Dog</h5>
+                                <p class="my-1 txt-small">
+                                    @puppydog
+                                </p>
+                            </div>
+                        </div>
+
+                        <p class="text-sm my-2">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+                            dolore earum ducimus quaerat perferendis natus itaque beatae quae et
+                            assumenda id quo eius facere, illum excepturi sapiente ipsam. Iste,
+                            quos.
+                    </div>
+                </li>
+                <li class="notif-list-item">
+                    <div class="p-3">
+                        <div class="notification-name">
+                            <div class="avatar-md">
+                                <img src="/assets/Round Image.jpg" class="img-round" alt="Puppy eyes" />
+                            </div>
+                            <div class="ml-4">
+                                <h5>Puppy Dog</h5>
+                                <p class="my-1 txt-small">
+                                    @puppydog
+                                </p>
+                            </div>
+                        </div>
+
+                        <p class="text-sm my-2">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+                            dolore earum ducimus quaerat perferendis natus itaque beatae quae et
+                            assumenda id quo eius facere, illum excepturi sapiente ipsam. Iste,
+                            quos.
+                    </div>
+                </li>
+                <li class="notif-list-item">
+                    <div class="p-3">
+                        <div class="notification-name">
+                            <div class="avatar-md">
+                                <img src="/assets/Round Image.jpg" class="img-round" alt="Puppy eyes" />
+                            </div>
+                            <div class="ml-4">
+                                <h5>Puppy Dog</h5>
+                                <p class="my-1 txt-small">
+                                    @puppydog
+                                </p>
+                            </div>
+                        </div>
+
+                        <p class="text-sm my-2">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+                            dolore earum ducimus quaerat perferendis natus itaque beatae quae et
+                            assumenda id quo eius facere, illum excepturi sapiente ipsam. Iste,
+                            quos.
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to get the stacked lists of above styles, this
+            code will give you 2 items, rest you can add as many by simply duplicating the <span class="primary-color">li</span> item. Note that the only addition to spaced list above is the class <span class="primary-color">mt-3</span> in each <span class="primary-color">li</span>  item.</p>
+
+        <div class="code-display">
+            </div>
+
+
+        <!-- Footer -->
+        <footer class="footer-components">
+            <a href="#" class="btn-footer"><img src="/assets/arrow-left.svg"> ... </a>
+            <a href="#" class="btn-footer"> ... <img src="/assets/arrow-right.svg"> </a>
+        </footer>
+    </main>
+</body>
+
+</html>
