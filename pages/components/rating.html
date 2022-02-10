@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/halcyon.css">
+    <title>Rating</title>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="nav-main">
+
+            <div class="logo-box">
+                <a href="/index.html"><img src="/assets/HalcyonLogo.svg" alt="logo" class="logo"></a>
+            </div>
+
+            <div class="nav-list-item">
+                <ul class="ul-no-decor">
+                    <li class="documentation disp-inline-flex"><a href="#" class="link-docs">Documentation</li></a>
+                </ul>
+
+                <div class="link-social">
+                    <a href="https://github.com/bhavyaj12" target="_blank" class="nav-pills"><i
+                            class="fab fa-github "></i></a>
+                    <a href="https://twitter.com/bhavzlearn" target="_blank" class="nav-pills"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/bhavya-joshi-438178184" target="_blank" class="nav-pills"><i
+                            class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar-side">
+        <div class="mainheading-navside">
+            Components
+        </div>
+        <div class="subheading-navside">
+            <a class="link-no-decor" href="/pages/components/alert.html">Alert</a>
+            <a class="link-no-decor" href="/pages/components/avatar.html">Avatar</a>
+            <a class="link-no-decor" href="/pages/components/badge.html">Badge</a>
+            <a class="link-no-decor" href="/pages/components/button.html">Button</a>
+            <a class="link-no-decor" href="/pages/components/card.html">Card</a>
+            <a class="link-no-decor" href="/pages/components/image.html">Image</a>
+            <a class="link-no-decor" href="/pages/components/input.html">Input</a>
+            <a class="link-no-decor" href="/pages/components/lists.html">Lists</a>
+            <a class="link-no-decor" href="/pages/components/modal.html">Modal</a>
+            <a class="link-no-decor" href="/pages/components/navigation.html">Navigation</a>
+            <a class="link-no-decor active" href="/pages/components/rating.html">Rating</a>
+            <a class="link-no-decor" href="/pages/components/simplified-grid.html">Simplified Grid</a>
+            <a class="link-no-decor" href="/pages/components/text-utilities.html">Text Utilities</a>
+            <a class="link-no-decor" href="/pages/components/toast.html">Toast</a>
+        </div>
+    </nav>
+
+    <main class="component-disp">
+        <h1 class="header-component txt-large">Rating</h1>
+        <p class="intro-comp txt-component txt-medium">Rating is used to display the overall reviews of an item or a
+            product.
+        </p>
+        <h3 class="subheader-component txt-medium">Normal Read-only Rating</h3>
+        <p class="txt-component txt-normal">This is a read only rating which shows the review of a product or service.
+            For assigning stars just include the term <span class="primary-color">checked</span> for the number of stars
+            and rest will be greyed out.
+        </p>
+
+        <div class="component-example">
+            <div class="ratings-container">
+                <div class="stars-container">
+                    <input type="checkbox" id="star-1" checked />
+                    <label for="star-1" class="fas fa-star"></label>
+                    <input type="checkbox" id="star-2" checked />
+                    <label for="star-2" class="fas fa-star"></label>
+                    <input type="checkbox" id="star-3" checked />
+                    <label for="star-3" class="fas fa-star"></label>
+                    <input type="checkbox" id="star-4" />
+                    <label for="star-4" class="fas fa-star"></label>
+                    <input type="checkbox" id="star-5" />
+                    <label for="star-5" class="fas fa-star"></label>
+                </div>
+            </div>
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to get the rating!</p>
+
+        <div class="code-display">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522ratings-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stars-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522star-1%2522%2520checked%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522star-1%2522%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522star-2%2522%2520checked%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522star-2%2522%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522star-3%2522%2520checked%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522star-3%2522%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522star-4%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522star-4%2522%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522star-5%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522star-5%2522%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 606px; height: 431px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+
+        <footer class="footer-components">
+            <a href="#" class="btn-footer"><img src="/assets/arrow-left.svg"> ... </a>
+            <a href="#" class="btn-footer"> ... <img src="/assets/arrow-right.svg"> </a>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
