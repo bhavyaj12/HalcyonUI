@@ -1,0 +1,85 @@
+.list-container, .nested-list-container, .category-list-container{
+    border-radius: 0.2rem;
+    background-color: var(--list-bg);
+    padding: var(--size-1) var(--size-1-5) var(--size-1) var(--size-2-5);
+    line-height: 1.5;
+}
+
+.list-type-roman {
+    list-style-type: lower-roman;
+}
+
+.list-type-alpha {
+    list-style-type: lower-alpha;
+}
+
+.list-type-sq {
+    list-style-type: square;
+}
+
+.list-type-circle {
+    list-style-type: circle;
+}
+
+.nested-list-container {
+    padding: var(--size-1) 32px var(--size-1) var(--size-2);
+}
+
+.nested-list-container, .nested-list-container ul {
+    list-style-type: square;
+}
+
+.nested-list-container ul li {
+    margin-left: var(--size-1);
+}
+
+.list-title{
+    padding: var(--size-1);
+    border-bottom: 2px solid var(--grey-bg);
+    margin-bottom: .5rem;
+}
+
+.category-list-container ul, .category-list-container li {
+    list-style-type: none;
+}
+
+.category-list-container {
+    padding: var(--size-1-5);
+    background-color: var(--white-bg);
+    border: 2px solid var(--grey-bg);
+    border-radius: 0.4rem;
+}
+
+.category-list-container li {
+    margin: var(--size-1);
+}
+
+.category-list-container li:hover {
+    color: var(--cta-color);
+    cursor: pointer;
+}
+
+.category-list-container .collapsable-list div:hover{
+    color : var(--cta-color);
+}
+
+.category-list-container .collapsable-list:hover{
+    color: black;
+}
+
+
+/* spaced and stacked */
+
+.notification-name {
+    display: flex;
+    align-items: center;
+}
+
+.notification-name h5{
+    margin: 0;
+}
+
+.notif-list-item {
+    border: 1px solid var(--grey-border);
+    max-width: 50rem;
+}

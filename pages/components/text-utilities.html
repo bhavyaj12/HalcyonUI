@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/nav-common.css">
+    <link rel="stylesheet" href="/css/utility.css">
+    <link rel="stylesheet" href="/css/text-utilities.css">
+    <title>Text Utilities</title>
+</head>
+
+<body>
+
+    <!-- Top Nav Bar -->
+    <nav class="nav-bar">
+        <div class="nav-main">
+
+            <div class="logo-box">
+                <a href="/index.html"><img src="/assets/HalcyonLogo.svg" alt="logo" class="logo"></a>
+            </div>
+
+            <div class="nav-list-item">
+                <ul class="ul-no-decor">
+                    <li class="documentation disp-inline-flex"><a href="#" class="link-docs">Documentation</li></a>
+                </ul>
+
+                <div class="link-social">
+                    <a href="https://github.com/bhavyaj12" target="_blank" class="nav-pills"><i
+                            class="fab fa-github "></i></a>
+                    <a href="https://twitter.com/bhavzlearn" target="_blank" class="nav-pills"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/bhavya-joshi-438178184" target="_blank" class="nav-pills"><i
+                            class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Side Nav Bar -->
+    <nav class="navbar-side">
+        <div class="mainheading-navside">
+            Components
+        </div>
+        <div class="subheading-navside">
+            <a class="link-no-decor" href="/pages/components/alert.html">Alert</a>
+            <a class="link-no-decor" href="/pages/components/avatar.html">Avatar</a>
+            <a class="link-no-decor" href="/pages/components/badge.html">Badge</a>
+            <a class="link-no-decor" href="/pages/components/button.html">Button</a>
+            <a class="link-no-decor" href="/pages/components/card.html">Card</a>
+            <a class="link-no-decor" href="/pages/components/image.html">Image</a>
+            <a class="link-no-decor" href="/pages/components/input.html">Input</a>
+            <a class="link-no-decor" href="/pages/components/lists.html">Lists</a>
+            <a class="link-no-decor" href="/pages/components/modal.html">Modal</a>
+            <a class="link-no-decor" href="/pages/components/navigation.html">Navigation</a>
+            <a class="link-no-decor" href="/pages/components/rating.html">Rating</a>
+            <a class="link-no-decor" href="/pages/components/simplified-grid.html">Simplified Grid</a>
+            <a class="link-no-decor active" href="/pages/components/text-utilities.html">Text Utilities</a>
+            <a class="link-no-decor" href="/pages/components/toast.html">Toast</a>
+        </div>
+    </nav>
+
+    <main class="component-disp">
+        <h1 class="header-component txt-large">Text Utilities</h1>
+        <p class="intro-comp txt-component txt-medium">Text utilities or typography is used to ease the process of
+            styling headings and text.
+        </p>
+
+        <!-- Headings -->
+        <h3 class="subheader-component 
+        txt-medium">Headings</h3>
+        <p class="txt-component txt-normal">For headings you can use the tags <span class="primary-color">h1, h2, h3, h4,
+                h5 and h6</span> and add the same class names for same styling.</p>
+        <div class="component-example txt-util">
+            <h1>This is an h1 heading.</h1>
+            <h2>This is an h2 heading.</h2>
+            <h3>This is an h3 heading.</h3>
+            <h4>This is an h4 heading.</h4>
+            <h5>This is an h5 heading.</h5>
+            <h6>This is an h6 heading.</h6>
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to get the headings of above styles.</p>
+
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%253EThis%2520is%2520an%2520h1%2520heading.%253C%252Fh1%253E%250A%253Ch2%253EThis%2520is%2520an%2520h2%2520heading.%253C%252Fh2%253E%250A%253Ch3%253EThis%2520is%2520an%2520h3%2520heading.%253C%252Fh3%253E%250A%253Ch4%253EThis%2520is%2520an%2520h4%2520heading.%253C%252Fh4%253E%250A%253Ch5%253EThis%2520is%2520an%2520h5%2520heading.%253C%252Fh5%253E%250A%253Ch6%253EThis%2520is%2520an%2520h6%2520heading.%253C%252Fh6%253E%250A%250A%253C%21--%2520style%2520with%2520class%2520name%2520--%253E%250A%250A%253Cdiv%2520class%253D%2522h2%2522%253EThis%2520is%2520an%2520h2%2520heading.%253C%252Fdiv%253E"
+                style="width: 521px; height: 372px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <!-- Small text -->
+        <h3 class="subheader-component txt-medium">Small Text</h3>
+        <p class="txt-component txt-normal">For small text you can use the class names <span
+                class="primary-color">txt-small</span> and <span class="primary-color">txt-xs</span>.</p>
+
+        <div class="component-example txt-util">
+            <div class="txt-small">This is a small text.</div>
+            <div class="txt-xs">This is an extra small text.</div>
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to get the small text of above styles.</p>
+
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522txt-small%2522%253EThis%2520is%2520a%2520small%2520text.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522txt-xs%2522%253EThis%2520is%2520an%2520extra%2520small%2520text.%253C%252Fdiv%253E"
+                style="width: 590px; height: 207px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <!-- Gray Text -->
+        <h3 class="subheader-component txt-medium">Gray Text</h3>
+        <p class="txt-component txt-normal">For gray text you can just add the class name <span
+                class="primary-color">txt-gray</span> to elements or other divs.</p>
+
+        <div class="component-example txt-util">
+            <h3 class="txt-gray">This is a gray h3 heading.</h3>
+            <div class="txt-normal txt-gray">This is a normal text gray div.</div>
+            <p class="txt-gray">This is a gray paragraph text. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to get the gray text of above styles.</p>
+
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch3%2520class%253D%2522txt-gray%2522%253EThis%2520is%2520a%2520gray%2520h3%2520heading.%253C%252Fh3%253E%250A%253Cdiv%2520class%253D%2522txt-normal%2520txt-gray%2522%253EThis%2520is%2520a%2520normal%2520text%2520gray%2520div.%253C%252Fdiv%253E%250A%253Cp%2520class%253D%2522txt-gray%2522%253EThis%2520is%2520a%2520gray%2520paragraph%2520text.....%253C%252Fp%253E"
+                style="width: 609px; height: 263px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <!-- Center Text -->
+        <h3 class="subheader-component txt-medium">Center Text</h3>
+        <p class="txt-component txt-normal">To center a text just add the class name <span
+                class="primary-color">text-center</span> to justify a text to the center.</p>
+
+        <div class="component-example txt-util">
+            <h4 class="text-center">This is a center h4 heading.</h4>
+            <p class="text-center">This is a center paragraph text. Lorem ipsum dolor sit amet, consectetur
+                adipiscing
+                elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to get the center text of above styles.</p>
+
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch4%2520class%253D%2522text-center%2522%253EThis%2520is%2520a%2520center%2520h4%2520heading.%253C%252Fh4%253E%250A%253Cp%2520class%253D%2522text-center%2522%253EThis%2520is%2520a%2520center%2520paragraph%2520text....%253C%252Fp%253E"
+                style="width: 657px; height: 207px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer-components">
+            <a href="#" class="btn-footer"><img src="/assets/arrow-left.svg"> ... </a>
+            <a href="#" class="btn-footer"> ... <img src="/assets/arrow-right.svg"> </a>
+        </footer>
+    </main>
+</body>
+
+</html>
