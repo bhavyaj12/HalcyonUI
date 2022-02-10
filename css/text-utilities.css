@@ -53,3 +53,9 @@ h6, .h6 {
 .txt-gray {
     color: var(--gray-txt);
 }
+
+/* center text */
+
+.text-center {
+    text-align: center;
+}
