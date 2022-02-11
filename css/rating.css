@@ -1,0 +1,27 @@
+.ratings-container {
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stars-container {
+    padding: var(--size-1);
+}
+
+.stars-container input {
+    display: none;
+}
+
+.stars-container label {
+    cursor: pointer;
+}
+
+.stars-container input:not(:checked)~label {
+    color: var(--gray-txt);
+}
+
+.stars-container label {
+    color: var(--star-color);
+}
