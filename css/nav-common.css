@@ -17,6 +17,7 @@ body {
 :root {
     --cta-color: #7e17c8;
     --secondary-color: #d8b9ee;
+    --secondary-light: #f8f0ff;
     --accent-color: #44242400;
     --font-color: #000000;
     --grey-border: rgb(153, 153, 153);
