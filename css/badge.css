@@ -48,11 +48,16 @@
     min-height: 1.8rem;
 }
 
-.badge .badge-no {
+.badge-no {
+    position: absolute;
     background-color: var(--cta-color);
-    bottom: 2.7rem;
-    right: 0.4rem;
+    top: 1rem;
+    right: 0;
+    transform: translate(50%, -50%);
+    max-width: 2rem;
+    max-height: 2rem;
     color: white;
     padding: 0.3rem;
     font-size: 0.9rem;
+    border-radius: 50%;
 }
