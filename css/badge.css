@@ -2,14 +2,13 @@
     position: relative;
 }
 
-.badge>div {
+.badge-dnd, .badge-online, .badge-offline  {
     position: absolute;
     bottom: 1rem;
     right: 1rem;
     border-radius: 50%;
     border: 2px solid white;
     text-align: center;
-
 }
 
 .badge .badge-avatar-lg {
@@ -48,11 +47,23 @@
     min-height: 1.8rem;
 }
 
-.badge .badge-no {
+.badge .fas {
+    font-size: 2rem;
+}
+
+.badge-no {
+    position: absolute;
     background-color: var(--cta-color);
-    bottom: 2.7rem;
-    right: 0.4rem;
+    top: 0;
+    right: 0;
+    left: 0.7rem;
+    transform: translate(50%, -50%);
+    max-width: 4rem;
+    max-height: 4rem;
     color: white;
     padding: 0.3rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    border-radius: 50%;
+    border: 2px solid white;
+    text-align: center;
 }
