@@ -47,7 +47,7 @@ You can simply install the library in your code by importing it as so:
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/bhavyaj12/HalcyonUI.git
 ```
 
 
