@@ -11,20 +11,26 @@
     <link rel="stylesheet" href="/css/utility.css">
     <link rel="stylesheet" href="/css/landing.css">
     <title>Halcyon-UI</title>
+    <link rel="icon" href="../../assets/favicon.ico" type="image/x-icon" />
 </head>
 
 <body>
     <nav class="nav-bar">
         <div class="nav-main">
-
             <div class="logo-box">
                 <a href="./"><img src="/assets/HalcyonLogo.svg" alt="logo" class="logo"></a>
             </div>
 
             <div class="nav-list-item">
                 <ul class="ul-no-decor">
-                    <li class="documentation disp-inline-flex"><a href="/pages/components/avatar.html"
-                            class="link-docs">Documentation</li></a>
+                    <li class="documentation disp-inline-flex mx-8 active">
+                        <a href="/index.html" class="link-docs ">Home
+                        </a>
+                    </li>
+                    <li class="documentation disp-inline-flex">
+                        <a href="/pages/components/alert.html" class="link-docs ">Documentation
+                        </a>
+                    </li>
                 </ul>
 
                 <div class="link-social">
@@ -43,7 +49,7 @@
     </nav>
 
     <main>
-        <div class="container-landing">
+        <div class="container-landing ">
             <img src="/assets/LandingImg.svg" alt="girl coding" class="img-landing">
 
             <div class="container-landing-text">
@@ -55,7 +61,7 @@
                     that will help you create beautiful UI in a matter of seconds.
                 </div>
                 <div class="button-landing">
-                    <a href="/pages/components/avatar.html">
+                    <a href="#install">
                         <button class="btn btn-primary">Get Started</button>
                     </a>
                     <a href="https://github.com/bhavyaj12/HalcyonUI" target="_blank">
@@ -64,7 +70,35 @@
                 </div>
             </div>
         </div>
+
+        <div class="install-steps mt-8" id="install">
+            <div class="install-div">
+                <h2>How to Use</h2>
+                <p class="install-text mt-5">To install and start using the components in your project, simply add the
+                    stylesheet as shown in the code here.
+                </p>
+                <div class="install-code mt-7">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=36px&ph=22px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fhalcyon-ui.netlify.app%252Fhalcyon.css%2522%253E"
+                        style="width: 1024px; height: 200px; max-height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
     </main>
+
+    <footer class="landing-footer">
+        <div class="footer-header">Made with 💜 by Bhavya Joshi</div>
+        <ul class=" mt-3 disp-inline-flex ul-no-decor footer-social">
+            <a href="https://github.com/bhavyaj12" target="_blank"><i class="fab fa-github "></i></a>
+            <a href="https://twitter.com/bhavzlearn" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/bhavya-joshi-438178184" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+        </ul>
+        <div class="mt-3 txt-small">© 2022 Halcyon-UI</div>
+    </footer>
 
 </body>
 
