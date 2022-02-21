@@ -34,9 +34,10 @@ body {
     --list-bg: rgb(253, 242, 255);
     --star-color: rgb(255, 221, 28);
     --footer-color: #403747;
+    --modal-bg: rgba(0, 0, 0, 0.6);
     --search-bg: #f2f2f2;
     --search-border: rgb(148, 146, 146);
-    --nav-bg: #F5E5F2; 
+    --nav-bg: #F5E5F2;
 
 
     --size-0-5: 0.5rem;
