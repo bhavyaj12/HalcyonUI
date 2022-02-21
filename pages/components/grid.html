@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, Component Library, UI, UX" />
+    <meta name="description" content="Stylish pure CSS Component Library for making beautiful UI fast." />
+    <meta name="author" content="Bhavya Joshi" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/nav-common.css">
+    <link rel="stylesheet" href="/css/utility.css">
+    <link rel="stylesheet" href="/css/image.css">
+    <link rel="stylesheet" href="/css/button.css">
+    <link rel="stylesheet" href="/css/text-utilities.css">
+    <link rel="stylesheet" href="/css/grid.css">
+    <title>Halcyon UI | Simplified Grid</title>
+    <link rel="icon" href="../../assets/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+
+    <!-- Top Nav Bar -->
+    <nav class="nav-bar">
+        <div class="nav-main">
+
+            <div class="logo-box">
+                <a href="/index.html"><img src="/assets/HalcyonLogo.svg" alt="logo" class="logo"></a>
+            </div>
+
+            <div class="nav-list-item">
+                <ul class="ul-no-decor">
+                    <li class="documentation disp-inline-flex mx-8">
+                        <a href="/index.html" class="link-docs ">Home
+                        </a>
+                    </li>
+                    <li class="documentation disp-inline-flex active">
+                        <a href="/pages/components/alert.html" class="link-docs ">Documentation
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="link-social">
+                    <a href="https://github.com/bhavyaj12" target="_blank" class="nav-pills"><i
+                            class="fab fa-github "></i></a>
+                    <a href="https://twitter.com/bhavzlearn" target="_blank" class="nav-pills"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/bhavya-joshi-438178184" target="_blank" class="nav-pills"><i
+                            class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Side Nav Bar -->
+    <nav class="navbar-side">
+        <div class="mainheading-navside">
+            Components
+        </div>
+        <div class="subheading-navside">
+            <a class="link-no-decor active" href="/pages/components/alert.html">Alert</a>
+            <a class="link-no-decor" href="/pages/components/avatar.html">Avatar</a>
+            <a class="link-no-decor" href="/pages/components/badge.html">Badge</a>
+            <a class="link-no-decor" href="/pages/components/button.html">Button</a>
+            <a class="link-no-decor" href="/pages/components/card.html">Card</a>
+            <a class="link-no-decor" href="/pages/components/image.html">Image</a>
+            <a class="link-no-decor" href="/pages/components/input.html">Input</a>
+            <a class="link-no-decor" href="/pages/components/lists.html">Lists</a>
+            <a class="link-no-decor" href="/pages/components/rating.html">Rating</a>
+            <a class="link-no-decor" href="/pages/components/text-utilities.html">Text Utilities</a>
+
+        </div>
+    </nav>
+
+    <main class="component-disp">
+        <h1 class="header-component txt-large">Grid</h1>
+        <p class="intro-comp txt-component txt-medium">Grids are used to display content in columns on a website. They
+            make the site look cleaner and more consistent.
+        </p>
+        <h3 class="subheader-component txt-medium">Grid with 2 Columns</h3>
+        <p class="txt-component txt-normal">This simple grid consists of two columns and is responsive. To wrap your
+            content in 2 column grid, use the class <span class="primary-color">grid-col-2</span>. It also makes use of
+            the Image component - responsive image.</p>
+
+        <div class="component-example">
+            <div class="grid-col-2">
+                <div class="grid-col-item">
+                    <div class="p-2">
+                        <div class="col-text">
+                            <h3 class="h3">
+                                Photography Classes
+                            </h3>
+                            <p class="txt-medium">Learn how to click exciting photos!</p>
+                            <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                deserunt mollit anim id est laborum.</p>
+                            <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <button class="button btn-solid button-primary p-1">
+                            Enroll
+                        </button>
+                    </div>
+                </div>
+                <div class="grid-col-item">
+                    <img src="../../assets/grid-1.jpg" alt="Camping Milky Way Photo" class="img-responsive">
+                </div>
+            </div>
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to get the simple 2 column grid.</p>
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=javascript&width=400&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=34px&ph=33px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-col-2%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-col-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522p-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522col-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522h3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520...%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522txt-medium%2522%253E...%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522my-3%2522%253E...%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522my-3%2522%253E...%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-col-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520class%253D%2522img-responsive%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 577px; height: 459px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <h3 class="subheader-component txt-medium">Grid with 3 Columns</h3>
+        <p class="txt-component txt-normal">This simple grid consists of three columns and is responsive. To wrap your
+            content in 3 column grid, use the class <span class="primary-color">grid-col-3</span>. It also makes use of
+            the Image component - responsive image, if you want to put images.</p>
+
+        <div class="component-example">
+            <div class="grid-col-3">
+                <div class="grid-col-item">
+                    <img src="../../assets/grid-2.jpg" alt="Camping Milky Way Photo" class="img-responsive">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="grid-col-item">
+                    <img src="../../assets/grid-3.jpg" alt="Camping Milky Way Photo" class="img-responsive">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="grid-col-item">
+                    <div class="p-5">
+                        <div class="col-text">
+                            <h3 class="h3">
+                                Travel
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <button class="button btn-solid button-secondary p-1">
+                            Book Ticket
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to get the simple 3 column grid.</p>
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=400&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=34px&ph=33px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-col-3%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-col-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520class%253D%2522img-responsive%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E...%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-col-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520class%253D%2522img-responsive%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E...%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-col-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522p-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522col-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522h3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520...%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E...%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520btn-solid%2520button-secondary%2520p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520...%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 643px; height: 553px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <footer class="footer-components">
+            <a href="" class="btn-footer"><img src="/assets/arrow-left.svg"> ... </a>
+            <a href="" class="btn-footer"> ... <img src="/assets/arrow-right.svg"> </a>
+        </footer>
+    </main>
+    <script src="../../JavaScript/toast.js"></script>
+</body>
+
+</html>
