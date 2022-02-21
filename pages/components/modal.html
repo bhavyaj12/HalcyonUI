@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Component Library, UI, UX" />
+    <meta name="description" content="Stylish pure CSS Component Library for making beautiful UI fast." />
+    <meta name="author" content="Bhavya Joshi" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/nav-common.css">
+    <link rel="stylesheet" href="/css/utility.css">
+    <link rel="stylesheet" href="/css/button.css">
+    <link rel="stylesheet" href="/css/modal.css">
+    <title>Halcyon UI | Modal</title>
+    <link rel="icon" href="../../assets/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+
+    <!-- Top Nav Bar -->
+    <nav class="nav-bar">
+        <div class="nav-main">
+            <div class="logo-box">
+                <a href="/index.html"><img src="/assets/HalcyonLogo.svg" alt="logo" class="logo"></a>
+            </div>
+
+            <div class="nav-list-item">
+                <ul class="ul-no-decor">
+                    <li class="documentation disp-inline-flex mx-8">
+                        <a href="/index.html" class="link-docs ">Home
+                        </a>
+                    </li>
+                    <li class="documentation disp-inline-flex active">
+                        <a href="/pages/components/alert.html" class="link-docs ">Documentation
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="link-social">
+                    <a href="https://github.com/bhavyaj12" target="_blank" class="nav-pills"><i
+                            class="fab fa-github "></i></a>
+                    <a href="https://twitter.com/bhavzlearn" target="_blank" class="nav-pills"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/bhavya-joshi-438178184" target="_blank" class="nav-pills"><i
+                            class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Side Nav Bar -->
+    <nav class="navbar-side">
+        <div class="mainheading-navside">
+            Components
+        </div>
+        <div class="subheading-navside">
+            <a class="link-no-decor active" href="/pages/components/alert.html">Alert</a>
+            <a class="link-no-decor" href="/pages/components/avatar.html">Avatar</a>
+            <a class="link-no-decor" href="/pages/components/badge.html">Badge</a>
+            <a class="link-no-decor" href="/pages/components/button.html">Button</a>
+            <a class="link-no-decor" href="/pages/components/card.html">Card</a>
+            <a class="link-no-decor" href="/pages/components/image.html">Image</a>
+            <a class="link-no-decor" href="/pages/components/input.html">Input</a>
+            <a class="link-no-decor" href="/pages/components/lists.html">Lists</a>
+            <a class="link-no-decor" href="/pages/components/rating.html">Rating</a>
+            <a class="link-no-decor" href="/pages/components/text-utilities.html">Text Utilities</a>
+
+        </div>
+    </nav>
+
+    <main class="component-disp">
+        <h1 class="header-component txt-large">Modal</h1>
+        <p class="intro-comp txt-component txt-medium">A modal is a small box of content that appears on the screen to
+            grab the user's attention. It typically disables scrolling, thus it should be used only for very important
+            information.
+        </p>
+        <h3 class="subheader-component txt-medium">Simple Modal</h3>
+        <p class="txt-component txt-normal">Simple Modal is a text box with two action buttons. To use simple modal in
+            your site you can wrap the model content in the class <span
+                class="primary-color">model-demo-wrapper</span>.This will lead to the content inside the class to be
+            displayed as a modal on appropriate button click. Be careful to use it, as it will disable scrolling.</p>
+
+        <div class="component-example">
+            <div class="modal-container">
+                <div class="modal-text-container p-4">
+                    <h2 class="py-3">Welcome</h2>
+                    <p class="modal-text txt-normal">
+                        Don't miss this offer! Sign Up Now, and get notified right in your mail box when the sale
+                        starts!
+                    </p>
+                    <div class="modal-buttons">
+                        <button class="button button-primary btn-solid">Sign Up Now</button>
+                        <button class="button button-primary btn-outline">Discard</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-example">
+            <button class="button button-primary btn-solid modal-demo-btn">Live Demo</button>
+        </div>
+        <div class="model-demo-wrapper">
+            <div class="modal-container">
+                <div class="modal-text-container p-4">
+                    <h2 class="py-3">Welcome</h2>
+                    <p class="modal-text txt-normal">
+                        Don't miss this offer! Sign Up Now, and get notified right in your mail box when the sale
+                        starts!
+                    </p>
+                    <div class="modal-buttons" id="modal-buttons">
+                        <button class="button button-primary btn-solid modal-action">Sign Up Now</button>
+                        <button class="button button-primary btn-outline modal-action">Discard</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to get the simple modal on your site. Also use
+            the javascript code to make it work!</p>
+
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=36px&ph=22px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522model-demo-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-text-container%2520p-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522py-3%2522%253EWelcome%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522modal-text%2520txt-normal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Don%27t%2520miss%2520this%2520offer%21%2520Sign%2520Up%2520Now%252C%2520and%2520get%2520notified%2520right%2520in%2520your%2520mail%2520box%2520when%2520the%2520sale%2520starts%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-buttons%2522%2520id%253D%2522modal-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-primary%2520btn-solid%2520modal-action%2522%253ESign%2520Up%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-primary%2520btn-outline%2520modal-action%2522%253EDiscard%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 1017px; height: 390px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+        <h4 class="txt-normal m-1">JavaScript</h4>
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=36px&ph=22px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520simpleModal%2520%253D%2520document.querySelector%28%2522.model-demo-wrapper%2522%29%253B%250Aconst%2520modelDemoBtn%2520%253D%2520document.querySelector%28%2522.modal-demo-btn%2522%29%253B%250Aconst%2520modalBtns%2520%253D%2520document.querySelectorAll%28%2522.modal-action%2522%29%253B%250Aconst%2520body%2520%253D%2520document.querySelector%28%2522body%2522%29%253B%250A%250AmodelDemoBtn.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520simpleModal.style.display%2520%253D%2520%2522flex%2522%253B%250A%2520%2520%2520%2520body.style.overflow%2520%253D%2520%27hidden%27%253B%250A%257D%29%253B%250A%250AmodalBtns.forEach%28btn%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520btn.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520if%2520%28btn.parentNode.id%2520%253D%253D%253D%2520%2522modal-buttons%2522%29%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520simpleModal.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520body.style.overflow%2520%253D%2520%27auto%27%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%257D%250A%2520%2520%2520%2520%257D%29%253B%250A%257D%29%253B%250A%250Awindow.addEventListener%28%2522click%2522%252C%2520event%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520if%2520%28event.target%2520%253D%253D%253D%2520simpleModal%29%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520simpleModal.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520body.style.overflow%2520%253D%2520%27auto%27%253B%250A%2520%2520%2520%2520%257D%2520%250A%257D%29%253B"
+                style="width: 622px; height: 595px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <footer class="footer-components">
+            <a href="" class="btn-footer"><img src="/assets/arrow-left.svg"> ... </a>
+            <a href="" class="btn-footer"> ... <img src="/assets/arrow-right.svg"> </a>
+        </footer>
+    </main>
+
+    <script src="../../JavaScript/modal.js"></script>
+</body>
+
+</html>
