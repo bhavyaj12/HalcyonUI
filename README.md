@@ -1,3 +1,5 @@
+<img src="/assets/android-chrome-192x192.png" width="75" height="75">
+
 # Halcyon-UI
 
 Halcyon is a CSS component library, with fully functional and modular pre-defined styled classes that will help you create beautiful UI in a matter of seconds.
