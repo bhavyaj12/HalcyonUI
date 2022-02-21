@@ -1,0 +1,21 @@
+.grid-col-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--size-1);
+}
+
+.grid-col-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--size-1);
+}
+
+.grid-col-2 .button.btn-solid.button-primary, .grid-col-3 .button.btn-solid.button-secondary  {
+    margin: var(--size-2) 0;
+}
+
+@media screen and (max-width: 500px) {
+    .grid-col-2, .grid-col-3 {
+        grid-template-columns: 1fr;
+    }
+}
