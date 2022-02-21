@@ -1,0 +1,57 @@
+.toast, .toast-demo {
+    background-color: var(--cta-color);
+    color: var(--white-bg);
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.6);
+    border-radius: var(--size-0-5); 
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    gap: var(--size-1);
+    width: 100%;
+    height: var(--size-3);
+    width: max-content;
+    max-height: max-content;
+}
+
+.toast-demo {
+    display: none;
+    position: fixed;
+    z-index: 5;
+    bottom: var(--size-2);
+    right: var(--size-3);
+}
+
+.toast-close-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1rem;
+    height: 1rem;
+    min-width: 0;
+    min-height: 0;
+    font-size: var(--size-1);
+    border: none;
+    background: transparent;
+    color: var(--white-bg);
+    padding: var(--size-1); 
+}
+
+.toast-close-btn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.toast-close {
+    margin-left: auto;
+}
+
+.toast-live-demo {
+    border-radius: 0.2rem;
+    padding: var(--size-0-5) var(--size-1);
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+    width: max-content;
+    text-align: center;
+    cursor: pointer;
+    border-color: var(--secondary-color);
+}
