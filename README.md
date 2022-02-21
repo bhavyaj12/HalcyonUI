@@ -1,4 +1,4 @@
-<img src="/assets/android-chrome-192x192.png" width="75" height="75">
+<img src="/assets/readme logo halcyon 2.svg" width="75" height="75">
 
 # Halcyon-UI
 
