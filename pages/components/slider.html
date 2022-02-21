@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, Component Library, UI, UX" />
+    <meta name="description" content="Stylish pure CSS Component Library for making beautiful UI fast." />
+    <meta name="author" content="Bhavya Joshi" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/nav-common.css">
+    <link rel="stylesheet" href="/css/utility.css">
+    <link rel="stylesheet" href="/css/slider.css">
+    <title>Halcyon UI | Slider</title>
+    <link rel="icon" href="../../assets/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <!-- Top Nav Bar -->
+    <nav class="nav-bar">
+        <div class="nav-main">
+
+            <div class="logo-box">
+                <a href="/index.html"><img src="/assets/HalcyonLogo.svg" alt="logo" class="logo"></a>
+            </div>
+
+            <div class="nav-list-item">
+                <ul class="ul-no-decor">
+                    <li class="documentation disp-inline-flex mx-8">
+                        <a href="/index.html" class="link-docs ">Home
+                        </a>
+                    </li>
+                    <li class="documentation disp-inline-flex active">
+                        <a href="/pages/components/alert.html" class="link-docs ">Documentation
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="link-social">
+                    <a href="https://github.com/bhavyaj12" target="_blank" class="nav-pills"><i
+                            class="fab fa-github "></i></a>
+                    <a href="https://twitter.com/bhavzlearn" target="_blank" class="nav-pills"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/bhavya-joshi-438178184" target="_blank" class="nav-pills"><i
+                            class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Side Nav Bar -->
+    <nav class="navbar-side">
+        <div class="mainheading-navside">
+            Components
+        </div>
+        <div class="subheading-navside">
+            <a class="link-no-decor active" href="/pages/components/alert.html">Alert</a>
+            <a class="link-no-decor" href="/pages/components/avatar.html">Avatar</a>
+            <a class="link-no-decor" href="/pages/components/badge.html">Badge</a>
+            <a class="link-no-decor" href="/pages/components/button.html">Button</a>
+            <a class="link-no-decor" href="/pages/components/card.html">Card</a>
+            <a class="link-no-decor" href="/pages/components/image.html">Image</a>
+            <a class="link-no-decor" href="/pages/components/input.html">Input</a>
+            <a class="link-no-decor" href="/pages/components/lists.html">Lists</a>
+            <a class="link-no-decor" href="/pages/components/rating.html">Rating</a>
+            <a class="link-no-decor" href="/pages/components/text-utilities.html">Text Utilities</a>
+
+        </div>
+    </nav>
+
+    <main class="component-disp">
+        <h1 class="header-component txt-large">Slider</h1>
+        <p class="intro-comp txt-component txt-medium">Sliders are very useful to display the range of particular values
+            such as price in a shopping store or volume level.
+        </p>
+        <h3 class="subheader-component txt-medium">Simple Styled Slider</h3>
+        <p class="txt-component txt-normal">This simple styled slider is used for showing the range of values. To use a
+            simple slider use the class <span class="primary-color">slider-container</span> to wrap your slider inside and then get the style by using the classes defined in the code below.</p>
+
+        <div class="component-example">
+            <div class="slider-container">
+                <div class="slider-min">100</div>
+                <input class="slider" type="range" name="range" id="range" min="100" max="5000" value="500" />
+                <div class="slider-max">5000</div>
+            </div>
+        </div>
+
+        <p class="txt-component txt-normal">You can paste the below code to get the above simple styled slider.</p>
+        <div class="code-display">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28236%2C236%2C236%2C1%29&t=one-light&wt=none&l=htmlmixed&width=400&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=34px&ph=33px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slider-min%2522%253E100%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522slider%2522%2520type%253D%2522range%2522%2520name%253D%2522range%2522%2520id%253D%2522range%2522%2520min%253D%2522100%2522%2520max%253D%25225000%2522%2520value%253D%2522500%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slider-max%2522%253E5000%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 931px; height: 235px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <footer class="footer-components">
+            <a href="" class="btn-footer"><img src="/assets/arrow-left.svg"> ... </a>
+            <a href="" class="btn-footer"> ... <img src="/assets/arrow-right.svg"> </a>
+        </footer>
+    </main>
+</body>
+
+</html>
