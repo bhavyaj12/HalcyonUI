@@ -84,14 +84,13 @@ body {
 }
 
 .logo {
-    min-width: 0%;
+    min-width: 10%;
     width: 45%;
 }
 
 .logo-box {
     margin-top: 1rem;
 }
-
 
 .nav-pills {
     margin-left: 12px;
@@ -242,7 +241,7 @@ body {
     overflow: hidden;
 }
 
-@media (max-width: 900px) {
+@media only screen and (max-width: 900px) {
     .navbar-side {
         display: none;
     }
@@ -252,4 +251,10 @@ body {
         padding: var(--size-1);
     }
 
+}
+
+@media only screen and (max-width: 500px) {
+    .logo {
+        width: 70%;
+    }
 }
