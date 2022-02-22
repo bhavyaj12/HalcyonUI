@@ -7,15 +7,12 @@
     gap: var(--size-1-5);
 }
 
-
 input.slider {
     -webkit-appearance: none;
     background-color: var(--secondary-color);
-    position: relative;
-    height: 30px;
+    height: 1.8rem;
     width: 100%;
     overflow: hidden;
-    outline: none;
     border-radius: 5px;
 }
 
