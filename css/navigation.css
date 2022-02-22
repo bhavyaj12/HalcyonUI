@@ -100,8 +100,8 @@
     border: 1px solid var(--white-bg);
 }
 
-.simple-nav-bar .simple-nav .simple-nav-links li .button,
-.submenu-nav-bar .submenu-nav .submenu-nav-links li .button {
+.simple-nav-bar .simple-nav .simple-nav-links li .btn,
+.submenu-nav-bar .submenu-nav .submenu-nav-links li .btn {
     margin: var(--size-0-5);
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -115,23 +115,23 @@
     position: relative;
 }
 
-.simple-nav-bar .simple-nav .simple-nav-links li .button.active,
-.submenu-nav-bar .submenu-nav .submenu-nav-links li .button.active {
+.simple-nav-bar .simple-nav .simple-nav-links li .btn.active,
+.submenu-nav-bar .submenu-nav .submenu-nav-links li .btn.active {
     color: var(--cta-color);
 }
 
-.simple-nav-bar .simple-nav .simple-nav-links li .button.button-link:hover,
-.submenu-nav-bar .submenu-nav .submenu-nav-links li .button.button-link:hover {
+.simple-nav-bar .simple-nav .simple-nav-links li .btn:hover,
+.submenu-nav-bar .submenu-nav .submenu-nav-links li .btn:hover {
     color: var(--cta-color);
 }
 
-.simple-nav-bar .simple-nav .simple-nav-links li .button.button-link.active:hover,
-.submenu-nav-bar .submenu-nav .submenu-nav-links li .button.button-link.active:hover {
+.simple-nav-bar .simple-nav .simple-nav-links li .btn.active:hover,
+.submenu-nav-bar .submenu-nav .submenu-nav-links li .btn.active:hover {
     color: var(--cta-color);
 }
 
-.simple-nav-bar .simple-nav .simple-nav-links li .button.active::after,
-.simple-nav-bar .simple-nav .simple-nav-links li .button:hover::after {
+.simple-nav-bar .simple-nav .simple-nav-links li .btn.active::after,
+.simple-nav-bar .simple-nav .simple-nav-links li .btn:hover::after {
     content: "";
     width: 30%;
     height: 2px;
