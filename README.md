@@ -10,7 +10,11 @@ and you're ready to go!
 
 ## Preview
 
-Insert gif or link to demo
+
+
+https://user-images.githubusercontent.com/59730227/155198388-1aa07698-2237-4fa3-99f6-2aae15cb0367.mp4
+
+
 
 ## Installation
 
