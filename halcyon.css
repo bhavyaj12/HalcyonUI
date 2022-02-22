@@ -37,7 +37,7 @@ body {
     --secondary-light: #f8f0ff;
     --accent-color: #44242400;
     --font-color: #000000;
-    --grey-border: rgb(153, 153, 153);
+    --grey-border: #999999;
     --grey-bg: #ececec;
     --error-color: #ed7d7d;
     --success-color: #88ed7d;
@@ -46,14 +46,14 @@ body {
     --white-bg: #ffffffff;
     --overlay-bg: rgba(251, 251, 255, 0.664);
     --card-bg: #fbf5ffe5;
-    --gray-txt: rgb(97, 96, 96);
-    --light-grey: rgb(83, 100, 113);
-    --list-bg: rgb(253, 242, 255);
-    --star-color: rgb(255, 221, 28);
+    --gray-txt: #616060;
+    --light-grey: #5e6d70;
+    --list-bg: #fdebff;
+    --star-color: #ffdd1c;
     --footer-color: #403747;
     --modal-bg: rgba(0, 0, 0, 0.6);
     --search-bg: #f2f2f2;
-    --search-border: rgb(148, 146, 146);
+    --search-border: #949292;
     --nav-bg: #F5E5F2;
     /* Variables for length */
     --size-0-5: 0.5rem;
