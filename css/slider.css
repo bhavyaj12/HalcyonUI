@@ -1,0 +1,30 @@
+.slider-container {
+    width: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: var(--size-1-5);
+}
+
+input.slider {
+    -webkit-appearance: none;
+    background-color: var(--secondary-color);
+    height: 1.8rem;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+input.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 2rem;
+    height: 2rem;
+    background: var(--footer-color);
+    cursor: pointer;
+}
+
+.slider-min,
+.slider-max {
+    color: var(--footer-color);
+}
