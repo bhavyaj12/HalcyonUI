@@ -2,12 +2,15 @@
     align-items: center;
     align-self: center;
     display: flex;
-    flex-direction: column;
     justify-content: center;
 }
 
 .stars-container {
     padding: var(--size-1);
+    display: flex;
+    flex-direction: row-reverse;
+    gap: var(--size-0-5);
+    font-size: var(--size-1-5);
 }
 
 .stars-container input {
@@ -16,12 +19,17 @@
 
 .stars-container label {
     cursor: pointer;
-}
-
-.stars-container input:not(:checked)~label {
     color: var(--gray-txt);
 }
 
-.stars-container label {
+.stars-container input:checked~label {
+    color: var(--star-color);  
+}
+
+.stars-container input:checked~label:hover {
+    color: var(--gray-txt); 
+}
+
+.stars-container input:not(:checked)~label:hover, .stars-container input:not(:checked)~label:hover~label {
     color: var(--star-color);
 }
