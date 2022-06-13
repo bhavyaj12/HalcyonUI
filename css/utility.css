@@ -11,7 +11,7 @@
 }
 
 .link-no-decor :hover {
-    color: black;
+    color: var(--font-color);
 }
 
 .primary-color {

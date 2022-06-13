@@ -3,7 +3,7 @@
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.06);
     top: 0;
     bottom: 0;
-    z-index: 999;
+    z-index: 30;
     position: sticky;
 }
 
@@ -217,7 +217,7 @@
 
 /* Media Query */
 
-@media (max-width: 900px) {
+@media (max-width: 1250px) {
 
     .simple-nav-links.display-flex,
     .submenu-nav-links.display-flex {
@@ -275,9 +275,7 @@
     .submenu-nav-bar .submenu-nav .fas {
         font-size: var(--size-0-5);
     }
-}
 
-@media only screen and (max-width: 768px) {
     .simple-nav.hamburger-nav {
         position: fixed;
         left: -100%;
@@ -313,7 +311,7 @@
         right: 2rem;
         bottom: 12;
         display: flex;
-        z-index: 9999;
+        z-index: 50;
         align-self: center;
         margin-top: var(--size-2);
     }
